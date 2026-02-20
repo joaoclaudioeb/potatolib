@@ -418,7 +418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Texas Instruments"
 			(at 22.098 1.27 0)
 			(effects
 				(font
