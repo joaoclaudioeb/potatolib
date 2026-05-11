@@ -7,21 +7,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC?"
-			(at 31.75 39.37 0)
+			(at 0 36.83 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify left top)
 			)
 		)
 		(property "Value" "MSP430I2041TRHBR"
-			(at 31.75 36.83 0)
+			(at 0 35.306 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify left top)
 			)
 		)
 		(property "Footprint" "footprints:MSP430I2041TRHBR"
@@ -231,241 +231,7 @@
 				)
 			)
 			(pin passive line
-				(at -35.56 8.89 0)
-				(length 5.08)
-				(name "A0.0+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 6.35 0)
-				(length 5.08)
-				(name "A0.0-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 3.81 0)
-				(length 5.08)
-				(name "A1.0+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 1.27 0)
-				(length 5.08)
-				(name "A1.0-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 -1.27 0)
-				(length 5.08)
-				(name "A2.0+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 -3.81 0)
-				(length 5.08)
-				(name "A2.0-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 -6.35 0)
-				(length 5.08)
-				(name "A3.0+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 -8.89 0)
-				(length 5.08)
-				(name "A3.0-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 39.37 270)
-				(length 5.08)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 -41.91 90)
-				(length 5.08)
-				(name "VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 39.37 270)
-				(length 5.08)
-				(name "P2.7/TA0.2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -41.91 90)
-				(length 5.08)
-				(name "AVSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 39.37 270)
-				(length 5.08)
-				(name "P2.6/TA0.1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -41.91 90)
+				(at -35.56 15.24 0)
 				(length 5.08)
 				(name "ROSC"
 					(effects
@@ -483,16 +249,16 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 39.37 270)
+				(at -35.56 12.7 0)
 				(length 5.08)
-				(name "P2.5/TA0.0"
+				(name "VREF"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "30"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -501,16 +267,16 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -41.91 90)
+				(at -35.56 5.08 0)
 				(length 5.08)
-				(name "DVSS"
+				(name "AVSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -519,16 +285,142 @@
 				)
 			)
 			(pin passive line
-				(at 0 39.37 270)
+				(at -35.56 -10.16 0)
 				(length 5.08)
-				(name "P2.4/TA1.0"
+				(name "A0.0+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "29"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 -12.7 0)
+				(length 5.08)
+				(name "A0.0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 -15.24 0)
+				(length 5.08)
+				(name "A1.0+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 -17.78 0)
+				(length 5.08)
+				(name "A1.0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 -20.32 0)
+				(length 5.08)
+				(name "A2.0+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 -22.86 0)
+				(length 5.08)
+				(name "A2.0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 -25.4 0)
+				(length 5.08)
+				(name "A3.0+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 -27.94 0)
+				(length 5.08)
+				(name "A3.0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -539,32 +431,14 @@
 			(pin passive line
 				(at 0 -41.91 90)
 				(length 5.08)
-				(name "VCC"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 39.37 270)
-				(length 5.08)
-				(name "P2.3/VMONIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -573,79 +447,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -41.91 90)
-				(length 5.08)
-				(name "VCORE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 39.37 270)
-				(length 5.08)
-				(name "P2.2/TA1.2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -41.91 90)
-				(length 5.08)
-				(name "~{_RST}/NMI/SBWTDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 39.37 270)
-				(length 5.08)
-				(name "P2.1/TA1.1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -41.91 90)
+				(at 35.56 30.48 180)
 				(length 5.08)
 				(name "TEST/SBWTCK"
 					(effects
@@ -663,7 +465,25 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 39.37 270)
+				(at 35.56 27.94 180)
+				(length 5.08)
+				(name "~{_RST}/NMI/SBWTDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 25.4 180)
 				(length 5.08)
 				(name "P2.0/TA1.0/CLKIN"
 					(effects
@@ -681,7 +501,151 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 8.89 180)
+				(at 35.56 22.86 180)
+				(length 5.08)
+				(name "P2.1/TA1.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 20.32 180)
+				(length 5.08)
+				(name "P2.2/TA1.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 17.78 180)
+				(length 5.08)
+				(name "P2.3/VMONIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 15.24 180)
+				(length 5.08)
+				(name "P2.4/TA1.0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 12.7 180)
+				(length 5.08)
+				(name "P2.5/TA0.0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 10.16 180)
+				(length 5.08)
+				(name "P2.6/TA0.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 7.62 180)
+				(length 5.08)
+				(name "P2.7/TA0.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 0 180)
+				(length 5.08)
+				(name "DVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -5.08 180)
 				(length 5.08)
 				(name "P1.7/UCB0SDA/UCB0SIMO/TA1CLK"
 					(effects
@@ -699,7 +663,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 6.35 180)
+				(at 35.56 -7.62 180)
 				(length 5.08)
 				(name "P1.6/UCB0SCL/UCB0SOMI/TA0.2"
 					(effects
@@ -717,7 +681,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 3.81 180)
+				(at 35.56 -10.16 180)
 				(length 5.08)
 				(name "P1.5/UCB0CLK/TA0.1"
 					(effects
@@ -735,7 +699,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 1.27 180)
+				(at 35.56 -12.7 180)
 				(length 5.08)
 				(name "P1.4/UCB0STE/TA0.0"
 					(effects
@@ -753,7 +717,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -1.27 180)
+				(at 35.56 -15.24 180)
 				(length 5.08)
 				(name "P1.3/UCA0TXD/UCA0SIMO/TA0CLK/TDO/TDI"
 					(effects
@@ -771,7 +735,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -3.81 180)
+				(at 35.56 -17.78 180)
 				(length 5.08)
 				(name "P1.2/UCA0RXD/UCA0SOMI/ACLK/TDI/TCLK"
 					(effects
@@ -789,7 +753,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -6.35 180)
+				(at 35.56 -20.32 180)
 				(length 5.08)
 				(name "P1.1/UCA0CLK/SMCLK/TMS"
 					(effects
@@ -807,7 +771,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -8.89 180)
+				(at 35.56 -22.86 180)
 				(length 5.08)
 				(name "P1.0/UCA0STE/MCLK/TCK"
 					(effects
@@ -817,6 +781,42 @@
 					)
 				)
 				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -30.48 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -33.02 180)
+				(length 5.08)
+				(name "VCORE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
