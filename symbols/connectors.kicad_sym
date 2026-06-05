@@ -687,7 +687,7 @@
 				)
 				(fill
 					(type color)
-					(color 255 255 194 1)
+					(color 192 192 192 1)
 				)
 			)
 			(pin passive line
