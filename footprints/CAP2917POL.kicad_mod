@@ -1,7 +1,7 @@
 (footprint "CAP2917POL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tantalum Capacitor SMD Kemet-W (7343-15 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor tantalum")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 0.8 0.6)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "035d6c39-0b3f-41e3-8294-23ca1105c6c5")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -199,18 +187,19 @@
 	(pad "1" smd roundrect
 		(at -3.1125 0)
 		(size 2.075 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.120482)
 		(uuid "59e296d3-9dda-4429-bf0a-1177eec9047d")
 	)
 	(pad "2" smd roundrect
 		(at 3.1125 0)
 		(size 2.075 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.120482)
 		(uuid "2c2e02a4-2f89-40f9-b6d0-b4f61cf00ae0")
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/CAP2917POL.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/3dmodels/CAP2917POL.stp"
 		(offset
 			(xyz -3.7 -2.15 0.1)
 		)

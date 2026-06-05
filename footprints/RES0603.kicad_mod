@@ -1,7 +1,7 @@
 (footprint "RES0603"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD resistor")
 	(tags "Resistor")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 0.8 0.6)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "46941086-64bd-411a-9774-8a182014bbf4")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -180,18 +168,19 @@
 	(pad "1" smd roundrect
 		(at -0.825 0)
 		(size 0.8 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "958f80d5-b7aa-4100-9f8f-c88ef419994d")
 	)
 	(pad "2" smd roundrect
 		(at 0.825 0)
 		(size 0.8 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dbf61a86-b574-45d2-ba89-95e1ee8fabb2")
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/RES0603.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/3dmodels/RES0603.step"
 		(offset
 			(xyz 0 0 0)
 		)

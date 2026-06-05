@@ -1,7 +1,7 @@
 (footprint "CAP0603"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 0.8 0.6)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0d1b3df3-8fae-404f-88d0-3a0bc46b470c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -179,18 +167,19 @@
 	(pad "1" smd roundrect
 		(at -0.775 0)
 		(size 0.9 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "251ae9f1-97b4-42c7-a502-27edca1e9c60")
 	)
 	(pad "2" smd roundrect
 		(at 0.775 0)
 		(size 0.9 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b3136c2f-02b9-49e1-a069-45a3c84854a1")
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/CAP0603.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/3dmodels/CAP0603.step"
 		(offset
 			(xyz 0 0 0)
 		)
