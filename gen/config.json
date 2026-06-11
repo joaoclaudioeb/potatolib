@@ -1,0 +1,50 @@
+{
+  "_comment": "All positions in mm (KiCad internal units). Y axis: positive = up in KiCad.",
+
+  "reference": {
+    "offset_y_above_graphic": 2.5,
+    "x": 0,
+    "font_size": 0.8,
+    "visible": true,
+    "do_not_autoplace": true
+  },
+
+  "value": {
+    "offset_y_above_graphic": 1.25,
+    "x": 0,
+    "font_size": 0.8,
+    "visible": true,
+    "do_not_autoplace": true
+  },
+
+  "hidden_fields": {
+    "_comment": "Fixed position for all hidden fields (the info table to the right)",
+    "start_x": 22.098,
+    "start_y": 6.35,
+    "step_y": -2.54,
+    "font_size": 1.27,
+    "justify": "left"
+  },
+
+  "info_table": {
+    "_comment": "The private graphical table drawn to the right of the symbol",
+    "enabled": true,
+    "line_start_x": 16.002,
+    "label_x": 19.05,
+    "label_font_size": 0.508
+  },
+
+  "fields_order": [
+    "Footprint",
+    "Datasheet",
+    "Manufacturer",
+    "Package",
+    "MPN",
+    "Description"
+  ],
+
+  "pin_numbers": { "hide": true },
+  "pin_names":   { "hide": true },
+
+  "allow_kicad_autoplace": false
+}
