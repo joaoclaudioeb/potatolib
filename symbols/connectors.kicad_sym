@@ -7,30 +7,39 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J?" (at 0 49.998 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "09665526616" (at 0 48.748 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "J?" (at 0 50.998 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Value"
+			"09665526616"
+			(at 0 48.748 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
 		(property
 			"Footprint"
 			"966552616"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://b2b.harting.com/files/download/PRD/PDF_DS/PDF_DS_09665526616_EN.pdf"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"~"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Package" "~" (at 22.098 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "MPN" "~" (at 22.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "MPN" "~" (at 42.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"D-Sub 50pin female low profile angled, 2.54mm pitch, stamped, with board locks, 4-40UNC, PL2"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"09665526616_0_1"
 			(circle
@@ -527,34 +536,38 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J?" (at 0 3.516 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "142-0701-801" (at 0 2.266 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "J?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "142-0701-801" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:142-0701-801"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Datasheet" "~" (at 22.098 3.81 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"~"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Cinch Connectivity"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"None"
-			(at 22.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"142-0701-801"
-			(at 22.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"~"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"142-0701-801_0_0"
 			(circle (center 0 -2.54) (radius 0.254) (stroke (width 0.254) (type default)) (fill (type none)))
@@ -563,8 +576,8 @@
 				line
 				(at -5.08 0 0)
 				(length 5.08)
-				(name "~" (effects (font (size 1.016 1.016))))
-				(number "1" (effects (font (size 1.016 1.016))))))
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"142-0701-801_1_0"
 			(circle
@@ -577,32 +590,32 @@
 				line
 				(at 0 -5.08 90)
 				(length 2.54)
-				(name "~" (effects (font (size 1.016 1.016))))
-				(number "S1" (effects (font (size 1.016 1.016)))))
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "S1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(hide yes)
-				(name "~" (effects (font (size 1.016 1.016))))
-				(number "S2" (effects (font (size 1.016 1.016)))))
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "S2" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(hide yes)
-				(name "~" (effects (font (size 1.016 1.016))))
-				(number "S3" (effects (font (size 1.016 1.016)))))
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "S3" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(hide yes)
-				(name "~" (effects (font (size 1.016 1.016))))
-				(number "S4" (effects (font (size 1.016 1.016))))))
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "S4" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"142-0701-801_1_1"
 			(rectangle
@@ -617,39 +630,43 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J?" (at 0 3.516 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "J?" (at 0 7.31 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Value"
 			"SSW-103-01-L-S"
-			(at 0 2.266 0)
-			(effects (font (size 0.8 0.8)))
+			(at 0 5.06 0)
+			(effects (font (size 1.27 1.27)))
 			(do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints: SSW-103-01-L-S"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://suddendocs.samtec.com/productspecs/tsw-sxx.pdf?_gl=1*hczkmv*_gcl_au*MjY5NjkyNTY1LjE3Njk0NjEzMDM.*_ga*MTA3NTM4NTMxNy4xNzY5NDYxMzAz*_ga_3KFNZC07WW*czE3Njk0NjUzNjYkbzIkZzEkdDE3Njk0NjU4MjgkajYwJGwwJGg0Mjc5MTg3OTQ."
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Samtec"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Package" "~" (at 22.098 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"SSW-103-01-L-S"
-			(at 22.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Single row, 01x03, female connector"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"SSW-103-01-L-S_1_1"
 			(rectangle
@@ -700,34 +717,43 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J?" (at 0 5.04 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "TSW-103-07-G-S" (at 0 3.79 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "J?" (at 0 6.167 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Value"
+			"TSW-103-07-G-S"
+			(at 0 3.917 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:TSW-103-07-G-S"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://suddendocs.samtec.com/productspecs/tsw-sxx.pdf?_gl=1*hczkmv*_gcl_au*MjY5NjkyNTY1LjE3Njk0NjEzMDM.*_ga*MTA3NTM4NTMxNy4xNzY5NDYxMzAz*_ga_3KFNZC07WW*czE3Njk0NjUzNjYkbzIkZzEkdDE3Njk0NjU4MjgkajYwJGwwJGg0Mjc5MTg3OTQ."
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Samtec"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Package" "~" (at 22.098 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"TSW-103-07-G-S"
-			(at 22.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Single row, 01x03, male connector"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"TSW-103-07-G-S_1_1"
 			(polyline
@@ -780,33 +806,335 @@
 				(number "3" (effects (font (size 1.27 1.27))))))
 		(embedded_fonts no))
 	(symbol
-		"USB-C"
+		"USB-C-full"
 		(pin_names (hide yes))
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J" (at 0 11.898 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "USB-C" (at 0 10.648 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Footprint" "~" (at 22.098 6.35 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+		(property "Reference" "J1" (at 0 21.28 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "USB-C-full" (at 0 19.03 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:GENERIC-USB-C"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"~"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Package" "~" (at 22.098 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "MPN" "~" (at 22.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "MPN" "~" (at 42.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"USB Power-Only 6P Type-C Receptacle connector"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
-			"USB-C_0_0"
+			"USB-C-full_0_0"
+			(rectangle
+				(start -0.254 -17.78)
+				(end 0.254 -16.764)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 15.494)
+				(end 9.144 14.986)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 10.414)
+				(end 9.144 9.906)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 7.874)
+				(end 9.144 7.366)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 2.794)
+				(end 9.144 2.286)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 0.254)
+				(end 9.144 -0.254)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 -2.286)
+				(end 9.144 -2.794)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 -4.826)
+				(end 9.144 -5.334)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 -12.446)
+				(end 9.144 -12.954)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 10.16 -14.986)
+				(end 9.144 -15.494)
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"USB-C-full_0_1"
+			(rectangle
+				(start -10.16 17.78)
+				(end 10.16 -17.78)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(polyline
+				(pts (xy -8.89 -3.81) (xy -8.89 3.81))
+				(stroke (width 0.508) (type default))
+				(fill (type none)))
+			(rectangle
+				(start -7.62 -3.81)
+				(end -6.35 3.81)
+				(stroke (width 0.254) (type default))
+				(fill (type outline)))
+			(arc
+				(start -7.62 3.81)
+				(mid -6.985 4.4423)
+				(end -6.35 3.81)
+				(stroke (width 0.254) (type default))
+				(fill (type none)))
+			(arc
+				(start -7.62 3.81)
+				(mid -6.985 4.4423)
+				(end -6.35 3.81)
+				(stroke (width 0.254) (type default))
+				(fill (type outline)))
+			(arc
+				(start -8.89 3.81)
+				(mid -6.985 5.7067)
+				(end -5.08 3.81)
+				(stroke (width 0.508) (type default))
+				(fill (type none)))
+			(arc
+				(start -5.08 -3.81)
+				(mid -6.985 -5.7067)
+				(end -8.89 -3.81)
+				(stroke (width 0.508) (type default))
+				(fill (type none)))
+			(arc
+				(start -6.35 -3.81)
+				(mid -6.985 -4.4423)
+				(end -7.62 -3.81)
+				(stroke (width 0.254) (type default))
+				(fill (type none)))
+			(arc
+				(start -6.35 -3.81)
+				(mid -6.985 -4.4423)
+				(end -7.62 -3.81)
+				(stroke (width 0.254) (type default))
+				(fill (type outline)))
+			(polyline
+				(pts (xy -5.08 3.81) (xy -5.08 -3.81))
+				(stroke (width 0.508) (type default))
+				(fill (type none)))
+			(circle
+				(center -2.54 1.143)
+				(radius 0.635)
+				(stroke (width 0.254) (type default))
+				(fill (type outline)))
+			(polyline
+				(pts (xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318))
+				(stroke (width 0.254) (type default))
+				(fill (type outline)))
+			(polyline
+				(pts (xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778))
+				(stroke (width 0.508) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508))
+				(stroke (width 0.508) (type default))
+				(fill (type none)))
+			(polyline (pts (xy 0 -5.842) (xy 0 4.318)) (stroke (width 0.508) (type default)) (fill (type none)))
+			(circle (center 0 -5.842) (radius 1.27) (stroke (width 0) (type default)) (fill (type outline)))
+			(rectangle
+				(start 1.905 1.778)
+				(end 3.175 3.048)
+				(stroke (width 0.254) (type default))
+				(fill (type outline))))
+		(symbol
+			"USB-C-full_1_1"
+			(pin
+				passive
+				line
+				(at -7.62 -22.86 90)
+				(length 5.08)
+				(name "SHIELD" (effects (font (size 1.27 1.27))))
+				(number "S1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "A1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "A12" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "B1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "B12" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(name "VBUS" (effects (font (size 1.27 1.27))))
+				(number "A4" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS" (effects (font (size 1.27 1.27))))
+				(number "A9" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS" (effects (font (size 1.27 1.27))))
+				(number "B4" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS" (effects (font (size 1.27 1.27))))
+				(number "B9" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "CC1" (effects (font (size 1.27 1.27))))
+				(number "A5" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "CC2" (effects (font (size 1.27 1.27))))
+				(number "B5" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "D-" (effects (font (size 1.27 1.27))))
+				(number "A7" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "D-" (effects (font (size 1.27 1.27))))
+				(number "B7" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "D+" (effects (font (size 1.27 1.27))))
+				(number "A6" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "D+" (effects (font (size 1.27 1.27))))
+				(number "B6" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 -12.7 180)
+				(length 5.08)
+				(name "SBU1" (effects (font (size 1.27 1.27))))
+				(number "A8" (effects (font (size 1.27 1.27)))))
+			(pin
+				bidirectional
+				line
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "SBU2" (effects (font (size 1.27 1.27))))
+				(number "B8" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"USB-C-power"
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J" (at 0 16.2 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "USB-C-power" (at 0 13.95 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"~"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"~"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "MPN" "~" (at 42.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"USB Power-Only 6P Type-C Receptacle connector"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"USB-C-power_0_0"
 			(rectangle
 				(start -0.254 -12.7)
 				(end 0.254 -11.684)
@@ -828,7 +1156,7 @@
 				(stroke (width 0) (type default))
 				(fill (type none))))
 		(symbol
-			"USB-C_0_1"
+			"USB-C-power_0_1"
 			(rectangle
 				(start -10.16 12.7)
 				(end 10.16 -12.7)
@@ -908,7 +1236,7 @@
 				(stroke (width 0.254) (type default))
 				(fill (type outline))))
 		(symbol
-			"USB-C_1_1"
+			"USB-C-power_1_1"
 			(pin
 				passive
 				line

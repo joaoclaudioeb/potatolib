@@ -85,6 +85,7 @@ def load_kicad_sym(path):
 SINGLE_LINE = {
     'pts','xy','at','start','end','mid',
     'stroke','fill','effects','font','justify','offset','size',
+    'hide','do_not_autoplace',
 }
 
 def serialize(node, indent=0):
@@ -123,7 +124,7 @@ def load_config(path):
 def _collect_xy(node):
     coords = []
     if isinstance(node, list):
-        if node and node[0] == 'xy' and len(node) >= 3:
+        if node and node[0] in ('xy', 'start', 'end', 'mid', 'center') and len(node) >= 3:
             try:
                 coords.append((float(node[1]), float(node[2])))
             except ValueError:
@@ -216,11 +217,48 @@ def build_property(name, value, x, y, font_size, visible, justify=None, do_not_a
     if justify:
         effects.append(['justify', justify])
     if not visible:
-        effects.append('hide')
+        effects.append(['hide', 'yes'])
     node = ['property', f'"{name}"', f'"{value}"', ['at', str(x), str(y), '0'], effects]
     if do_not_autoplace and cfg and not cfg.get('allow_kicad_autoplace', False):
         node.append(['do_not_autoplace'])
     return node
+
+
+def apply_pin_fonts(sym, cfg):
+    """Set pin name/number font sizes from config. No-op if 'pin_text' absent."""
+    pc = cfg.get('pin_text')
+    if not pc:
+        return
+    targets = {}
+    if 'name_font_size' in pc:
+        targets['name'] = str(pc['name_font_size'])
+    if 'number_font_size' in pc:
+        targets['number'] = str(pc['number_font_size'])
+    if not targets:
+        return
+
+    def walk(node):
+        if not isinstance(node, list):
+            return
+        if node and node[0] == 'pin':
+            for child in node:
+                if not (isinstance(child, list) and child and child[0] in targets):
+                    continue
+                s = targets[child[0]]
+                for eff in child:
+                    if not (isinstance(eff, list) and eff and eff[0] == 'effects'):
+                        continue
+                    for fnt in eff:
+                        if not (isinstance(fnt, list) and fnt and fnt[0] == 'font'):
+                            continue
+                        for sz in fnt:
+                            if isinstance(sz, list) and sz and sz[0] == 'size' and len(sz) >= 3:
+                                sz[1] = s
+                                sz[2] = s
+        for child in node:
+            walk(child)
+
+    walk(sym)
 
 
 def reposition_symbol(sym, cfg):
@@ -334,6 +372,8 @@ def reposition_symbol(sym, cfg):
                 node.clear(); node += ['pin_numbers', ['hide', pn_hide]]
             elif node[0] == 'pin_names':
                 node.clear(); node += ['pin_names', ['hide', pm_hide]]
+
+    apply_pin_fonts(sym, cfg)
 
     return sym
 

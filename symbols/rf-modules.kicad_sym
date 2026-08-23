@@ -7,30 +7,34 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U?" (at 0 3.516 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "LoRa126XF30" (at 0 2.266 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "U?" (at 0 16.2 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "LoRa126XF30" (at 0 13.95 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:LoRa126XF30"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"http://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"~"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Package" "~" (at 22.098 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "MPN" "~" (at 22.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "MPN" "~" (at 42.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"LoRa126XF30_0_1"
 			(rectangle

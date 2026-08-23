@@ -10,47 +10,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "100pF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "100pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP0603"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0603"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C0603C101J5GACAUTO"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 100pF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C0603C101J5GACAUTO_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C0603C101J5GACAUTO_1_0"
 			(pin
@@ -58,15 +54,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C0603C101J5GACAUTO_1_1"
 			(polyline
@@ -82,47 +78,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "1nF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "1nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP0603"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0603"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C0603C102F3GACTU"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 1nF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C0603C102F3GACTU_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C0603C102F3GACTU_1_0"
 			(pin
@@ -130,15 +122,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C0603C102F3GACTU_1_1"
 			(polyline
@@ -154,47 +146,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "100nF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "100nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP0603"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0603"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C0603C104K5RACTU"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 100nF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C0603C104K5RACTU_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C0603C104K5RACTU_1_0"
 			(pin
@@ -202,15 +190,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C0603C104K5RACTU_1_1"
 			(polyline
@@ -226,47 +214,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "22pF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "22pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP0603"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0603"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C0603C220K5RACAUTO"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 22pF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C0603C220K5RACAUTO_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C0603C220K5RACAUTO_1_0"
 			(pin
@@ -274,15 +258,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C0603C220K5RACAUTO_1_1"
 			(polyline
@@ -298,47 +282,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "3.3nF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "3.3nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP0603"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0603"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C0603C332J5GACAUTO"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 3.3nF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C0603C332J5GACAUTO_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C0603C332J5GACAUTO_1_0"
 			(pin
@@ -346,15 +326,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C0603C332J5GACAUTO_1_1"
 			(polyline
@@ -370,47 +350,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "470nF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "470nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP0603"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0603"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C0603C474K3RACTU"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 470nF, 10%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C0603C474K3RACTU_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C0603C474K3RACTU_1_0"
 			(pin
@@ -418,15 +394,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C0603C474K3RACTU_1_1"
 			(polyline
@@ -442,47 +418,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "1uF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "1uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP0805"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0805"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C0805C105K5RACTU"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 1uF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C0805C105K5RACTU_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C0805C105K5RACTU_1_0"
 			(pin
@@ -490,15 +462,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C0805C105K5RACTU_1_1"
 			(polyline
@@ -514,47 +486,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "10uF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "10uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP1210"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 0603"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C1210C106K5RACTU"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 10uF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C1210C106K5RACTU_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C1210C106K5RACTU_1_0"
 			(pin
@@ -562,15 +530,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C1210C106K5RACTU_1_1"
 			(polyline
@@ -586,47 +554,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "2.2uF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "2.2uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP1210"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 1210"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C1210C225K5RACTU"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 2.2uF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C1210C225K5RACTU_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C1210C225K5RACTU_1_0"
 			(pin
@@ -634,15 +598,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C1210C225K5RACTU_1_1"
 			(polyline
@@ -658,47 +622,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "4.7uF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "4.7uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP1210"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 1210"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"C1210C475K5RACTU"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 4.7uF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"C1210C475K5RACTU_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"C1210C475K5RACTU_1_0"
 			(pin
@@ -706,15 +666,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"C1210C475K5RACTU_1_1"
 			(polyline
@@ -730,47 +690,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "22uF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "22uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP1210"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://www.murata.com/en-us/products/productdetail?partno=GCM32ER71C226KE19%23"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Murata"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 1210"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"GCM32ER71C226KE19L"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 22uF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"GCM32ER71C226KE19L_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"GCM32ER71C226KE19L_1_0"
 			(pin
@@ -778,15 +734,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"GCM32ER71C226KE19L_1_1"
 			(polyline
@@ -802,47 +758,43 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "4.7uF" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "4.7uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP1210"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://br.mouser.com/datasheet/2/281/1/GCM32ER71H475KA55_01A-3146523.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Murata"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 1210"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"GCM32ER71H475KA55L"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Capacitor, 4.7uF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"GCM32ER71H475KA55L_0_1"
 			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"GCM32ER71H475KA55L_1_0"
 			(pin
@@ -850,17 +802,85 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
 			"GCM32ER71H475KA55L_1_1"
+			(polyline
+				(pts (xy -0.762 2.54) (xy -0.762 -2.54))
+				(stroke (width 0) (type solid))
+				(fill (type none)))
+			(polyline (pts (xy 0.762 2.54) (xy 0.762 -2.54)) (stroke (width 0) (type solid)) (fill (type none)))))
+	(symbol
+		"VJ0603A180JXQCW1BC"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(embedded_fonts no)
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "18pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/doc?28548"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"VJ0603A180JXQCW1BC"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 18pF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"VJ0603A180JXQCW1BC_0_1"
+			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"VJ0603A180JXQCW1BC_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(symbol
+			"VJ0603A180JXQCW1BC_1_1"
 			(polyline
 				(pts (xy -0.762 2.54) (xy -0.762 -2.54))
 				(stroke (width 0) (type solid))
@@ -874,37 +894,37 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 5.421 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "47uF" (at 0 4.171 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 5.786 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "47uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP2917POL"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SMD 2917"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"T495X476K035ATE300"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Tantalum capacitor, 47uF, 5%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"T495X476K035ATE300_0_1"
@@ -928,11 +948,7 @@
 				(stroke (width 0) (type default))
 				(fill (type outline)))
 			(polyline (pts (xy 1.27 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 15.367 2.921) (xy 15.367 2.921))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"T495X476K035ATE300_1_0"
 			(pin
@@ -940,15 +956,15 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8)))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))))
 	(symbol
 		"ESK476M035AC3AA"
 		(pin_numbers (hide yes))
@@ -957,37 +973,37 @@
 		(in_bom yes)
 		(on_board yes)
 		(embedded_fonts no)
-		(property "Reference" "C?" (at 0 5.421 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "47uF" (at 0 4.171 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "C?" (at 0 5.786 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "47uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP47UELECTROLYTIC"
-			(at 22.098 6.35 0)
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://br.mouser.com/datasheet/3/72/1/ESK476M035AC3AA.pdf"
-			(at 22.098 3.81 0)
+			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"KEMET"
-			(at 22.098 1.27 0)
+			(at 42.098 1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"PTH"
-			(at 22.098 -1.27 0)
+			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"ESK476M035AC3AA"
-			(at 22.098 -3.81 0)
+			(at 42.098 -3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Electrolytic capacitor, 47uF, 20%"
-			(at 22.098 -6.35 0)
+			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"ESK476M035AC3AA_0_1"
@@ -1011,11 +1027,7 @@
 				(stroke (width 0) (type default))
 				(fill (type outline)))
 			(polyline (pts (xy 1.27 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline
-				(pts (xy 15.367 2.921) (xy 15.367 2.921))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(polyline (pts (xy 1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
 			"ESK476M035AC3AA_1_0"
 			(pin
@@ -1023,12 +1035,442 @@
 				line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8)))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8))))))))
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))))
+	(symbol
+		"GRM155R71H104KE14D"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(embedded_fonts no)
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "100nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0402"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM155R71H104KE14D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 100nF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"GRM155R71H104KE14D_0_1"
+			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"GRM155R71H104KE14D_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(symbol
+			"GRM155R71H104KE14D_1_1"
+			(polyline
+				(pts (xy -0.762 2.54) (xy -0.762 -2.54))
+				(stroke (width 0) (type solid))
+				(fill (type none)))
+			(polyline (pts (xy 0.762 2.54) (xy 0.762 -2.54)) (stroke (width 0) (type solid)) (fill (type none)))))
+	(symbol
+		"GRM155R61A105KE15D"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(embedded_fonts no)
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "1uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0402"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A105KE15%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM155R61A105KE15D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 1uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"GRM155R61A105KE15D_0_1"
+			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"GRM155R61A105KE15D_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(symbol
+			"GRM155R61A105KE15D_1_1"
+			(polyline
+				(pts (xy -0.762 2.54) (xy -0.762 -2.54))
+				(stroke (width 0) (type solid))
+				(fill (type none)))
+			(polyline (pts (xy 0.762 2.54) (xy 0.762 -2.54)) (stroke (width 0) (type solid)) (fill (type none)))))
+	(symbol
+		"GRM1555C1H180JA01D"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(embedded_fonts no)
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "18pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0402"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H180JA01%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM1555C1H180JA01D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 18pF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"GRM1555C1H180JA01D_0_1"
+			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"GRM1555C1H180JA01D_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(symbol
+			"GRM1555C1H180JA01D_1_1"
+			(polyline
+				(pts (xy -0.762 2.54) (xy -0.762 -2.54))
+				(stroke (width 0) (type solid))
+				(fill (type none)))
+			(polyline (pts (xy 0.762 2.54) (xy 0.762 -2.54)) (stroke (width 0) (type solid)) (fill (type none)))))
+	(symbol
+		"GRM188R61C106MA73D"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(embedded_fonts no)
+		(property "Reference" "C?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "10uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.murata.com/en-us/products/productdetail?partno=GRM188R61C106MA73%23"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Murata"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"GRM188R61C106MA73D"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 10uF, 20%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"GRM188R61C106MA73D_0_1"
+			(polyline (pts (xy -1.27 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.27 0) (xy -0.762 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.762 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"GRM188R61C106MA73D_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(symbol
+			"GRM188R61C106MA73D_1_1"
+			(polyline
+				(pts (xy -0.762 2.54) (xy -0.762 -2.54))
+				(stroke (width 0) (type solid))
+				(fill (type none)))
+			(polyline (pts (xy 0.762 2.54) (xy 0.762 -2.54)) (stroke (width 0) (type solid)) (fill (type none)))))
+	(symbol
+		"T495D226K035ATE300"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(embedded_fonts no)
+		(property "Reference" "C?" (at 0 5.786 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "22uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP2917POL"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2917"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"T495D226K035ATE300"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tantalum capacitor, 22uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"T495D226K035ATE300_0_1"
+			(polyline
+				(pts (xy -2.794 -1.27) (xy -1.778 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 -1.778) (xy -2.286 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy -1.016 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(rectangle
+				(start -0.508 -2.286)
+				(end -1.016 2.286)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 0.508 -2.286)
+				(end 1.016 2.286)
+				(stroke (width 0) (type default))
+				(fill (type outline)))
+			(polyline (pts (xy 1.27 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"T495D226K035ATE300_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))))
+	(symbol
+		"T495C106K025ATE300"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(embedded_fonts no)
+		(property "Reference" "C?" (at 0 5.786 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "10uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP2312POL"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2312"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"T495C106K025ATE300"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tantalum capacitor, 10uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"T495C106K025ATE300_0_1"
+			(polyline
+				(pts (xy -2.794 -1.27) (xy -1.778 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 -1.778) (xy -2.286 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy -1.016 0) (xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(rectangle
+				(start -0.508 -2.286)
+				(end -1.016 2.286)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(rectangle
+				(start 0.508 -2.286)
+				(end 1.016 2.286)
+				(stroke (width 0) (type default))
+				(fill (type outline)))
+			(polyline (pts (xy 1.27 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"T495C106K025ATE300_1_0"
+			(pin
+				passive
+				line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))))

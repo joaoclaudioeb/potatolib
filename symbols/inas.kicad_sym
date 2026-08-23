@@ -4,48 +4,46 @@
 	(generator_version "9.0")
 	(symbol
 		"INA199C1DCKR"
-		(pin_names (hide yes))
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "INA199C1DCKR" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "U?" (at 0 11.882 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Value"
+			"INA199C1DCKR"
+			(at 0 9.632 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:INA199C1DCKR"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://www.ti.com/lit/ds/symlink/ina199.pdf?ts=1720820884105&ref_url=https%253A%252F%252Fbr.mouser.com%252F"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Texas Instruments"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SC70-6"
-			(at 22.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"INA199C1DCKR"
-			(at 22.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Bi-directional current sense amplifier"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(symbol
-			"INA199C1DCKR_0_1"
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"INA199C1DCKR_1_1"
 			(rectangle
@@ -58,88 +56,86 @@
 				line
 				(at -8.89 6.35 0)
 				(length 3.81)
-				(name "IN+" (effects (font (size 0.8 0.8))))
-				(number "4" (effects (font (size 0.8 0.8)))))
+				(name "IN+" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
 			(pin
 				power_in
 				line
 				(at -8.89 2.54 0)
 				(length 3.81)
-				(name "V+" (effects (font (size 0.8 0.8))))
-				(number "3" (effects (font (size 0.8 0.8)))))
+				(name "V+" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
 			(pin
 				power_in
 				line
 				(at -8.89 -5.08 0)
 				(length 3.81)
-				(name "GND" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8)))))
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
 			(pin
 				input
 				line
 				(at 8.89 6.35 180)
 				(length 3.81)
-				(name "IN-" (effects (font (size 0.8 0.8))))
-				(number "5" (effects (font (size 0.8 0.8)))))
+				(name "IN-" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27)))))
 			(pin
 				output
 				line
 				(at 8.89 2.54 180)
 				(length 3.81)
-				(name "OUT" (effects (font (size 0.8 0.8))))
-				(number "6" (effects (font (size 0.8 0.8)))))
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27)))))
 			(pin
 				input
 				line
 				(at 8.89 -5.08 180)
 				(length 3.81)
-				(name "REF" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8))))))
+				(name "REF" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))))
 		(embedded_fonts no))
 	(symbol
 		"INA199C3DCKR"
-		(pin_names (hide yes))
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "INA199C3DCKR" (at 0 4.806 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "U?" (at 0 11.882 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Value"
+			"INA199C3DCKR"
+			(at 0 9.632 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:INA199C3DCKR"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://www.ti.com/lit/ds/symlink/ina199.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1699134415152"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Texas Instruments"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"SC70-6"
-			(at 22.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"INA199C3DCKR"
-			(at 22.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"Bi-directional current sense amplifier"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(symbol
-			"INA199C3DCKR_0_1"
-			(polyline
-				(pts (xy 16.002 3.556) (xy 16.002 3.556))
-				(stroke (width 0) (type default))
-				(fill (type none))))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"INA199C3DCKR_1_1"
 			(rectangle
@@ -152,41 +148,41 @@
 				line
 				(at -8.89 6.35 0)
 				(length 3.81)
-				(name "IN+" (effects (font (size 0.8 0.8))))
-				(number "4" (effects (font (size 0.8 0.8)))))
+				(name "IN+" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
 			(pin
 				power_in
 				line
 				(at -8.89 2.54 0)
 				(length 3.81)
-				(name "V+" (effects (font (size 0.8 0.8))))
-				(number "3" (effects (font (size 0.8 0.8)))))
+				(name "V+" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
 			(pin
 				power_in
 				line
 				(at -8.89 -5.08 0)
 				(length 3.81)
-				(name "GND" (effects (font (size 0.8 0.8))))
-				(number "2" (effects (font (size 0.8 0.8)))))
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
 			(pin
 				input
 				line
 				(at 8.89 6.35 180)
 				(length 3.81)
-				(name "IN-" (effects (font (size 0.8 0.8))))
-				(number "5" (effects (font (size 0.8 0.8)))))
+				(name "IN-" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27)))))
 			(pin
 				output
 				line
 				(at 8.89 2.54 180)
 				(length 3.81)
-				(name "OUT" (effects (font (size 0.8 0.8))))
-				(number "6" (effects (font (size 0.8 0.8)))))
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27)))))
 			(pin
 				input
 				line
 				(at 8.89 -5.08 180)
 				(length 3.81)
-				(name "REF" (effects (font (size 0.8 0.8))))
-				(number "1" (effects (font (size 0.8 0.8))))))
+				(name "REF" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))))
 		(embedded_fonts no)))

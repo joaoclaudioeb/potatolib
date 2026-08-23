@@ -1,0 +1,484 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol
+		"ASE-12.000MHZ-L-C-T"
+		(pin_numbers (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "12MHz" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ASE-12.000MHZ-L-C-T"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"http://www.abracon.com/Oscillators/ASV.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3225"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ASE-12.000MHZ-L-C-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"3.3V CMOS SMD Crystal Clock Oscillator, 12MHz, Abracon"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"ASE-12.000MHZ-L-C-T_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(polyline
+				(pts (xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762) (xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"ASE-12.000MHZ-L-C-T_1_1"
+			(pin
+				power_in
+				line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "Vdd" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				input
+				line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "EN" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				output
+				line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"ASE-24.000MHZ-L-C-T"
+		(pin_numbers (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "24MHz" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ASE-24.000MHZ-L-C-T"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"http://www.abracon.com/Oscillators/ASV.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3225"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ASE-24.000MHZ-L-C-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"3.3V CMOS SMD Crystal Clock Oscillator, 24MHz, Abracon"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"ASE-24.000MHZ-L-C-T_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(polyline
+				(pts (xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762) (xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"ASE-24.000MHZ-L-C-T_1_1"
+			(pin
+				power_in
+				line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "Vdd" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				input
+				line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "EN" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				output
+				line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"ASE-25.000MHZ-L-C-T"
+		(pin_numbers (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "25MHz" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ASE-25.000MHZ-L-C-T"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"http://www.abracon.com/Oscillators/ASV.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3225"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ASE-25.000MHZ-L-C-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"3.3V CMOS SMD Crystal Clock Oscillator, 25MHz, Abracon"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"ASE-25.000MHZ-L-C-T_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(polyline
+				(pts (xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762) (xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"ASE-25.000MHZ-L-C-T_1_1"
+			(pin
+				power_in
+				line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "Vdd" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				input
+				line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "EN" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				output
+				line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"ASEK-32.768KHZ-L-R-T"
+		(pin_numbers (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "32.768kHz" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ASEK-32.768KHZ-L-R-T"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://abracon.com/Oscillators/ASEK.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3225"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ASEK-32.768KHZ-L-R-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"3.3V CMOS SMD Crystal Clock Oscillator, 32.768kHz, Abracon"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"ASEK-32.768KHZ-L-R-T_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(polyline
+				(pts (xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762) (xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"ASEK-32.768KHZ-L-R-T_1_1"
+			(pin
+				power_in
+				line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "Vdd" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				input
+				line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "EN" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				output
+				line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"ASEMB-25.000MHZ-LC-T"
+		(pin_numbers (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "25MHz" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ASEMB-25.000MHZ-LC-T"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://abracon.com/Oscillators/ASEMB.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3225"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ASEMB-25.000MHZ-LC-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"1.8-3.3V CMOS SMD MEMS Clock Oscillator, 25MHz, standby, Abracon"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"ASEMB-25.000MHZ-LC-T_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(polyline
+				(pts (xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762) (xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"ASEMB-25.000MHZ-LC-T_1_1"
+			(pin
+				power_in
+				line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "Vdd" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				input
+				line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "ST" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				output
+				line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"SIT8918BA-21-18E-50.000000"
+		(pin_numbers (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "50MHz" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:SIT8918BA-21-18E-50.000000"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.sitime.com/datasheet/SiT8918"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"SiTime"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3225"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"SIT8918BA-21-18E-50.000000"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"1.8V LVCMOS SMD MEMS Clock Oscillator, 50MHz, tri-state, SiTime"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"SIT8918BA-21-18E-50.000000_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(polyline
+				(pts (xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762) (xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"SIT8918BA-21-18E-50.000000_1_1"
+			(pin
+				power_in
+				line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "Vdd" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				input
+				line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "OE" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				output
+				line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no)))

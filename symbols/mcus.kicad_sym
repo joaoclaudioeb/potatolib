@@ -7,43 +7,43 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC?" (at 0 6.056 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "IC?" (at 0 37.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Value"
 			"MSP430I2041TRHBR"
-			(at 0 4.806 0)
-			(effects (font (size 0.8 0.8)))
+			(at 0 35.54 0)
+			(effects (font (size 1.27 1.27)))
 			(do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:MSP430I2041TRHBR"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"http://www.ti.com/lit/gpn/msp430i2041"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Texas Instruments"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"VQFN-32"
-			(at 22.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"MSP430I2041TRHBR"
-			(at 22.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"16MHz MCU with four 24-bit Sigma-Delta ADCs, two 16-bit High Res Timers, 32KBKB flash, 2KB RAM"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"MSP430I2041TRHBR_0_1"
 			(polyline

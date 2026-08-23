@@ -9,38 +9,38 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "TP" (at 0 3.516 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "Test point" (at 0 2.266 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "TP" (at 0 6.802 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "Test point" (at 0 4.552 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:testpoint_smd"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"https://br.mouser.com/datasheet/2/181/S2761R-1291319.pdf"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"Harwin"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"Non-standard"
-			(at 22.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"MPN"
 			"S2761-46R"
-			(at 22.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"~"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"testpoint_smd_0_1"
 			(circle (center 0 3.302) (radius 0.762) (stroke (width 0) (type default)) (fill (type none))))
@@ -61,34 +61,38 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "TP" (at 0 3.516 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
-		(property "Value" "Test point" (at 0 2.266 0) (effects (font (size 0.8 0.8))) (do_not_autoplace))
+		(property "Reference" "TP" (at 0 6.802 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "Test point" (at 0 4.552 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:testpoint_via"
-			(at 22.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
 			"None"
-			(at 22.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Manufacturer"
 			"None"
-			(at 22.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
 			"Non-standard"
-			(at 22.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "MPN" "None" (at 22.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"None"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
 			"~"
-			(at 22.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) hide))
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(symbol
 			"testpoint_via_0_1"
 			(circle (center 0 3.302) (radius 0.762) (stroke (width 0) (type default)) (fill (type none))))

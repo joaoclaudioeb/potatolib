@@ -230,12 +230,7 @@ def _xy_values(node: list) -> list:
     """Recursively collect all (x, y) coordinate pairs from a node."""
     coords = []
     if isinstance(node, list):
-        if node and node[0] == 'xy' and len(node) >= 3:
-            try:
-                coords.append((float(node[1]), float(node[2])))
-            except ValueError:
-                pass
-        elif node and node[0] == 'at' and len(node) >= 3:
+        if node and node[0] in ('xy', 'at', 'start', 'end', 'mid', 'center') and len(node) >= 3:
             try:
                 coords.append((float(node[1]), float(node[2])))
             except ValueError:
@@ -364,6 +359,44 @@ def rename_subsymbols_explicit(symbol: list, old_name: str, new_name: str) -> No
                 node[1] = f'"{new_name}{suffix}"'
 
 
+def apply_pin_fonts(sym, cfg):
+    """Set pin name/number font sizes from config. No-op if 'pin_text' absent."""
+    pc = cfg.get('pin_text')
+    if not pc:
+        return
+    targets = {}
+    if 'name_font_size' in pc:
+        targets['name'] = str(pc['name_font_size'])
+    if 'number_font_size' in pc:
+        targets['number'] = str(pc['number_font_size'])
+    if not targets:
+        return
+
+    def walk(node):
+        if not isinstance(node, list):
+            return
+        if node and node[0] == 'pin':
+            for child in node:
+                if not (isinstance(child, list) and child and child[0] in targets):
+                    continue
+                s = targets[child[0]]
+                for eff in child:
+                    if not (isinstance(eff, list) and eff and eff[0] == 'effects'):
+                        continue
+                    for fnt in eff:
+                        if not (isinstance(fnt, list) and fnt and fnt[0] == 'font'):
+                            continue
+                        for sz in fnt:
+                            if isinstance(sz, list) and sz and sz[0] == 'size' and len(sz) >= 3:
+                                sz[1] = s
+                                sz[2] = s
+        for child in node:
+            walk(child)
+
+    walk(sym)
+
+
+
 def generate_symbol(template: list | None, row: dict, output_name: str, cfg: dict) -> list:
     """
     Build a complete symbol node.
@@ -420,6 +453,8 @@ def generate_symbol(template: list | None, row: dict, output_name: str, cfg: dic
                     node.clear(); node += ['pin_numbers', ['hide', pn_hide]]
                 elif node[0] == 'pin_names':
                     node.clear(); node += ['pin_names', ['hide', pm_hide]]
+
+    apply_pin_fonts(sym, cfg)
 
     # --- Build property list ---
     hc = cfg['hidden_fields']

@@ -1,0 +1,208 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol
+		"REF5020AID"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "REF5020AID" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.ti.com/lit/ds/symlink/ref5030a-q1.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"~"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "MPN" "~" (at 42.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"2.048V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"REF5020AID_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background))))
+		(symbol
+			"REF5020AID_1_1"
+			(pin
+				power_in
+				line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "Vin" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "Temp" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				no_connect
+				line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "DNC" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				no_connect
+				line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27)))))
+			(pin
+				no_connect
+				line
+				(at 7.62 -12.7 180)
+				(length 2.54)
+				(hide yes)
+				(name "DNC" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_out
+				line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "Vout" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "Trim/NR" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"REF5025AID"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U?" (at 0 8.58 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "REF5025AID" (at 0 6.33 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.ti.com/lit/ds/symlink/ref5030a-q1.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"~"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"~"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "MPN" "~" (at 42.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"2.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"REF5025AID_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background))))
+		(symbol
+			"REF5025AID_1_1"
+			(pin
+				power_in
+				line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "Vin" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "Temp" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_in
+				line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				no_connect
+				line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "DNC" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				no_connect
+				line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27)))))
+			(pin
+				no_connect
+				line
+				(at 7.62 -12.7 180)
+				(length 2.54)
+				(hide yes)
+				(name "DNC" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27)))))
+			(pin
+				power_out
+				line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "Vout" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "Trim/NR" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no)))
