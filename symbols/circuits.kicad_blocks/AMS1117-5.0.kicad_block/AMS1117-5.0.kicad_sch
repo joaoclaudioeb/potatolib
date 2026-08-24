@@ -1,0 +1,2056 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8c4d6d7c-e60e-49df-af53-255bd8e9a2e4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Regulator_Linear:AMS1117-5.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-5.0"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-5.0_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-5.0_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "capacitors:C0603C104K5RACTU"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C?"
+				(at 0 6.04 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0 3.79 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:CAP0603"
+				(at 42.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+				(at 42.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, 100nF, 5%"
+				(at 42.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEMET"
+				(at 42.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD 0603"
+				(at 42.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C0603C104K5RACTU"
+				(at 42.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C0603C104K5RACTU_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C0603C104K5RACTU_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C0603C104K5RACTU_1_1"
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "capacitors:C0805C105K5RACTU"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C?"
+				(at 0 6.04 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1uF"
+				(at 0 3.79 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:CAP0805"
+				(at 42.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf"
+				(at 42.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor, 1uF, 5%"
+				(at 42.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEMET"
+				(at 42.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD 0805"
+				(at 42.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C0805C105K5RACTU"
+				(at 42.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C0805C105K5RACTU_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C0805C105K5RACTU_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C0805C105K5RACTU_1_1"
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "capacitors:T495D226K035ATE300"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C?"
+				(at 0 5.786 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0 3.536 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:CAP2917POL"
+				(at 42.098 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+				(at 42.098 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tantalum capacitor, 22uF, 10%"
+				(at 42.098 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEMET"
+				(at 42.098 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD 2917"
+				(at 42.098 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "T495D226K035ATE300"
+				(at 42.098 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "T495D226K035ATE300_0_1"
+				(polyline
+					(pts
+						(xy -2.794 -1.27) (xy -1.778 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.778) (xy -2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.508 -2.286)
+					(end -1.016 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 -2.286)
+					(end 1.016 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "T495D226K035ATE300_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 72.39 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3204ce76-2e89-4d0a-ac85-f941648c658d")
+	)
+	(junction
+		(at 95.25 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40530765-f6a0-46f9-9460-b59c90a8ecdd")
+	)
+	(junction
+		(at 121.92 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "898e6a72-648c-4a8e-a073-9e28c8bd490c")
+	)
+	(junction
+		(at 91.44 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4fba300-a14c-4744-ba78-5cf39e480d62")
+	)
+	(wire
+		(pts
+			(xy 121.92 134.62) (xy 127 134.62)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "2584871a-d540-4523-abd3-bc9e99bfa5c4")
+	)
+	(wire
+		(pts
+			(xy 111.76 142.24) (xy 111.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301d683d-4efd-48d1-ab34-a1562b54f28f")
+	)
+	(wire
+		(pts
+			(xy 111.76 134.62) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "358a9828-ffed-42d3-ad08-8c85a049ebcb")
+	)
+	(wire
+		(pts
+			(xy 91.44 138.43) (xy 91.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f83ec2-c1e4-47f5-8551-af3886492f0f")
+	)
+	(wire
+		(pts
+			(xy 121.92 134.62) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "4a5a243c-433e-4762-b690-8d6c1ee3df82")
+	)
+	(wire
+		(pts
+			(xy 81.28 142.24) (xy 81.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619df88a-fe5a-4a1e-aac4-1ec2abd97f0c")
+	)
+	(wire
+		(pts
+			(xy 67.31 134.62) (xy 72.39 134.62)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "64a4d1bf-5fa4-42b2-b3e8-772aef143e7d")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "7e24ae90-8866-4448-b143-56d46a03c754")
+	)
+	(wire
+		(pts
+			(xy 91.44 134.62) (xy 95.25 134.62)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "861a81fb-7865-416b-becd-4be29090c0fd")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 91.44 134.62)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "96cd88f9-f8a8-4e38-8c23-7b04a682b83a")
+	)
+	(wire
+		(pts
+			(xy 121.92 142.24) (xy 121.92 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adef4ca3-5449-4657-a7fa-b2fc95317c19")
+	)
+	(wire
+		(pts
+			(xy 95.25 132.08) (xy 95.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8374bb6-b3b3-45d3-9748-a5c0303ab6da")
+	)
+	(wire
+		(pts
+			(xy 72.39 143.51) (xy 72.39 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da876afc-1196-426d-8a46-91671e1fbf57")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 72.39 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6089cb-3c0f-4ef5-b415-0ef9507f885a")
+	)
+	(wire
+		(pts
+			(xy 111.76 134.62) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "e024fd1f-ec86-4114-b797-15791628393c")
+	)
+	(wire
+		(pts
+			(xy 95.25 134.62) (xy 96.52 134.62)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "f396332e-c0ef-457b-b547-49aee2f5fb41")
+	)
+	(wire
+		(pts
+			(xy 91.44 143.51) (xy 91.44 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb52e104-7b18-4888-bf3f-3d0ca13e5c19")
+	)
+	(label "VBUS"
+		(at 127 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04c2d1ce-2979-40c1-a598-a68d95ddf27b")
+	)
+	(label "VBUS_5V"
+		(at 121.92 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ea38834-cdf0-4065-9ede-ad6912b06caa")
+	)
+	(label "VBUS_5V"
+		(at 67.31 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d39f58b6-5e4b-4be9-a2ea-e6c64d55953b")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 96.52 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d56767d-5c1d-4fa3-9a5d-9696b1a98289")
+	)
+	(symbol
+		(lib_id "capacitors:C0805C105K5RACTU")
+		(at 72.39 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bbfb3c2-fc4e-4002-884d-f9fee93ee662")
+		(property "Reference" "C31"
+			(at 67.6275 139.6925 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 67.6275 141.9425 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP0805"
+			(at 66.04 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf"
+			(at 68.58 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 1uF, 5%"
+			(at 78.74 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 71.12 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C105K5RACTU"
+			(at 76.2 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0805"
+			(at 73.66 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa53f897-d8ba-40a9-b989-77c334757004")
+		)
+		(pin "2"
+			(uuid "9596530c-9167-43f6-a25f-5e6004a350f2")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 95.25 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "305d7829-f170-4c11-ba48-34ab9bd042d4")
+		(property "Reference" "#FLG02"
+			(at 95.25 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4825b1a4-0fb5-4850-a654-0407da010be3")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57438317-f915-45a3-9d2a-2089ca62b90b")
+		(property "Reference" "#PWR043"
+			(at 72.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddbdf238-2621-427d-a103-00a80cd5414f")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bed5e1d-d190-4460-9570-7e41156905fe")
+		(property "Reference" "#PWR044"
+			(at 81.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13d0c324-e61c-420c-8e70-23f614e29dc5")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799e25eb-5ad3-4425-aea2-9bc8ab0578b4")
+		(property "Reference" "#PWR045"
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a32ec246-65a0-4cec-813e-cd5574e334f5")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cab05f3-a4e4-4a39-86a2-53ac49b51725")
+		(property "Reference" "#PWR047"
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "346f3ab4-b8c7-4b4a-9451-7874f7304101")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "987029b4-c41d-4409-bb43-8fc400b2d5e4")
+		(property "Reference" "#PWR046"
+			(at 111.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4daaca9a-363d-4d2e-9ee3-621ec6066278")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:T495D226K035ATE300")
+		(at 111.76 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c291ab8-6901-463f-b550-16de4cf4a539")
+		(property "Reference" "C33"
+			(at 116.5225 138.6765 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22uF"
+			(at 116.5225 140.9265 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP2917POL"
+			(at 118.11 181.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+			(at 115.57 181.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tantalum capacitor, 22uF, 10%"
+			(at 105.41 181.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 113.03 181.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 2917"
+			(at 110.49 181.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T495D226K035ATE300"
+			(at 107.95 181.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d336fb94-3e0d-461b-b5d7-7a7165d9ed92")
+		)
+		(pin "1"
+			(uuid "26b0a783-bd35-458e-8fac-faaef448e754")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0603C104K5RACTU")
+		(at 121.92 139.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3d56575-27de-40e8-b530-6455e27597a7")
+		(property "Reference" "C34"
+			(at 126.6825 138.4225 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 126.6825 140.6725 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP0603"
+			(at 128.27 97.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 125.73 97.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 100nF, 5%"
+			(at 115.57 97.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 123.19 97.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 118.11 97.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0603"
+			(at 120.65 97.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da67a291-fdb8-48cc-9d79-81f542989674")
+		)
+		(pin "1"
+			(uuid "da12faa3-a6c9-4a52-abb0-34bc97ed192c")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-5.0")
+		(at 81.28 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc38d44f-e958-4e79-ad75-bc10fddb4cd2")
+		(property "Reference" "U4"
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-5.0"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 81.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+			(at 81.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56d1c439-6c5a-4f84-863a-56891036a641")
+		)
+		(pin "1"
+			(uuid "cab8e7ac-05f2-403e-a38f-3b434d02850e")
+		)
+		(pin "3"
+			(uuid "c1dc7d21-34dd-44da-af88-a4d059311ba9")
+		)
+		(instances
+			(project ""
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitors:C0805C105K5RACTU")
+		(at 91.44 140.97 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb44cef4-df6b-4d96-84cb-39ebac457c53")
+		(property "Reference" "C32"
+			(at 96.2025 139.6925 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 96.2025 141.9425 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP0805"
+			(at 97.79 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf"
+			(at 95.25 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 1uF, 5%"
+			(at 85.09 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 92.71 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C105K5RACTU"
+			(at 87.63 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 0805"
+			(at 90.17 98.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "049bbe18-52fa-474c-9754-efa598d3c286")
+		)
+		(pin "2"
+			(uuid "643a256f-0c18-419e-a8a5-547c122fa545")
+		)
+		(instances
+			(project "ads1256-board"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/aabc4b2d-b0e4-41c6-914d-caaf19851ee4"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

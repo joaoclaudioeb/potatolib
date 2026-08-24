@@ -1,0 +1,17 @@
+MPN,Value,Footprint,Datasheet,Manufacturer,Package,Description,Symbol
+9665526616,9665526616,footprints:09665526616,https://b2b.harting.com/files/download/PRD/PDF_DS/PDF_DS_09665526616_E,HARTING,THT D-Sub 50P,"D-Sub 50pin female low profile angled, 2.54mm pitch, stamped, with board locks",conn_dsub50
+142-0701-801,142-0701-801,footprints:142-0701-801,https://www.belfuse.com/resources/drawings/johnsoncomponents/dr-jc-142-0701-801.pdf,Cinch Connectivity,SMD Edge Mount,"SMA jack, straight, edge mount, 50 ohm, PCB",conn_sma_edge
+2053380002,2053380002,footprints:2053380002,https://www.molex.com/en-us/products/part-detail/2053380002,Molex,SMD 2.00mm 1x2,"Pico-Lock header, single row, right-angle, 2mm pitch, 2 circuits",conn_1x02_mp_male
+2053380004,2053380004,footprints:2053380004,https://www.molex.com/en-us/products/part-detail/2053380004,Molex,SMD 2.00mm 1x4,"Pico-Lock header, single row, right-angle, 2mm pitch, 4 circuits",conn_1x04_mp_male
+53261-0271,53261-0271,footprints:532610271,https://www.molex.com/en-us/products/part-detail/532610271,Molex,SMD 1.25mm 1x2,"PicoBlade header, single row, right-angle, 1.25mm pitch, 2 circuits",conn_1x02_mp_male
+53261-0471,53261-0471,footprints:532610471,https://www.molex.com/en-us/products/part-detail/532610471,Molex,SMD 1.25mm 1x4,"PicoBlade header, single row, right-angle, 1.25mm pitch, 4 circuits",conn_1x04_mp_male
+53261-0671,53261-0671,footprints:532610671,https://www.molex.com/en-us/products/part-detail/532610671,Molex,SMD 1.25mm 1x6,"PicoBlade header, single row, right-angle, 1.25mm pitch, 6 circuits",conn_1x06_mp_male
+53261-0871,53261-0871,footprints:532610871,https://www.molex.com/en-us/products/part-detail/532610871,Molex,SMD 1.25mm 1x8,"PicoBlade header, single row, right-angle, 1.25mm pitch, 8 circuits",conn_1x08_mp_male
+SSW-103-01-L-S,SSW-103-01-L-S,footprints:SSW-103-01-L-S,https://suddendocs.samtec.com/productspecs/ssw.pdf,Samtec,THT 2.54mm 1x3,"Socket strip, single row, 01x03, 2.54mm pitch, female",conn_1x03_female
+SSW-126-04-G-D,SSW-126-04-G-D,footprints:SSW-126-04-G-D,https://suddendocs.samtec.com/productspecs/ssw.pdf,Samtec,THT 2.54mm 2x26,"Socket strip, double row, 02x26, 2.54mm pitch, female",conn_2x26_female
+TSW-103-07-G-S,TSW-103-07-G-S,footprints:TSW-103-07-G-S,https://suddendocs.samtec.com/productspecs/tsw-sxx.pdf,Samtec,THT 2.54mm 1x3,"Header strip, single row, 01x03, 2.54mm pitch, male",conn_1x03_male
+TSM-107-01-L-SV,TSM-107-01-L-SV,footprints:TSM-107-01-L-SV,https://suddendocs.samtec.com/productspecs/tsm.pdf,Samtec,SMD 2.54mm 1x7,"Terminal strip, single row, 01x07, 2.54mm pitch, male, surface mount",conn_1x07_male
+TSM-108-01-L-SV,TSM-108-01-L-SV,footprints:TSM-108-01-L-SV,https://suddendocs.samtec.com/productspecs/tsm.pdf,Samtec,SMD 2.54mm 1x8,"Terminal strip, single row, 01x08, 2.54mm pitch, male, surface mount",conn_1x08_male
+TSM-104-01-L-SV,TSM-104-01-L-SV,footprints:TSM-104-01-L-SV,https://suddendocs.samtec.com/productspecs/tsm.pdf,Samtec,SMD 2.54mm 1x4,"Terminal strip, single row, 01x04, 2.54mm pitch, male, surface mount",conn_1x04_male
+1935161,1935161,footprints:1935161,https://www.phoenixcontact.com/en-us/products/1935161,Phoenix Contact,THT 5.08mm 1x3,"Terminal block, screw, single row, 01x03, 5.08mm pitch",conn_1x03_screw
+1715721,1715721,footprints:1715721,https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-2-508-1715721,Phoenix Contact,THT 5.08mm 1x2,"Terminal block, screw, single row, 01x02, 5.08mm pitch, 17.5A 400V",conn_1x02_screw

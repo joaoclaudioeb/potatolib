@@ -1,0 +1,8 @@
+MPN,Value,Footprint,Datasheet,Manufacturer,Package,Description,Symbol
+ABS07-32.768KHZ-T,32.768kHz,footprints:ABS07-32.768KHZ-T,https://abracon.com/Resonators/abs07.pdf,ABRACON,SMD 3215,"Crystal, 32.768kHz, 12.5pF, 20ppm",crystal_2pin
+ABS07-32.768KHZ-7-T,32.768kHz,footprints:ABS07-32.768KHZ-7-T,https://abracon.com/Resonators/abs07.pdf,ABRACON,SMD 3215,"Crystal, 32.768kHz, 7pF, 20ppm",crystal_2pin
+CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA,32.768kHz,footprints:CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA,https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf,Micro Crystal,SMD 3215,"Crystal, 32.768kHz, 12.5pF, 20ppm",crystal_2pin
+ABLS-7.680MHZ-D-4-Y-T,7.68MHz,footprints:ABLS-7.680MHZ-D-4-Y-T,https://abracon.com/Resonators/abls.pdf,ABRACON,SMD HC-49US,"Crystal, 7.68MHz, 18pF, 30ppm",crystal_2pin
+ABM8G-12.000MHZ-18-D2Y-T,12MHz,footprints:ABM8G-12.000MHZ-18-D2Y-T,https://abracon.com/Resonators/ABM8G.pdf,ABRACON,SMD 3225,"Crystal, 12MHz, 18pF, 20ppm",crystal_2pin
+ABM10W-19.2000MHZ-8-K1Z-T3,19.2MHz,footprints:ABM10W-19.2000MHZ-8-K1Z-T3,https://abracon.com/Resonators/ABM10W.pdf,ABRACON,SMD 2016,"Crystal, 19.2MHz, 8pF, 10ppm",crystal_2pin
+RH100-24.000-8-1015-EXT-TR-NS1,24MHz,footprints:RH100-24.000-8-1015-EXT-TR-NS1,https://www.raltron.com/products/pdfspecs/xtal_rh100.pdf,Raltron,SMD 2520,"Crystal, 24MHz, 8pF, 10ppm",crystal_2pin
