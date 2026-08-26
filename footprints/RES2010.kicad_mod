@@ -189,7 +189,7 @@
 		(roundrect_rratio 0.204082)
 		(uuid "329222a0-56ea-4202-861f-6af1699bdfc2")
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/RES2010.step"
+	(model "${KIPRJMOD}/../lib/3dmodels/RES2010.step"
 		(offset
 			(xyz 0 0 0)
 		)

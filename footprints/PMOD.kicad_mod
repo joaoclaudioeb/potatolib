@@ -331,7 +331,7 @@
 		(uuid "bd88d43f-546d-4830-8a9c-1da855c9864b")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/lrfhss-test-board/lib/3dmodels/TSW-106-08-L-D-RA.stp"
+	(model "${KIPRJMOD}/../lib/3dmodels/TSW-106-08-L-D-RA.stp"
 		(offset
 			(xyz 0 0 0)
 		)

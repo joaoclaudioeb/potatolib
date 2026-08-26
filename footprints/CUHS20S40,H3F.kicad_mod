@@ -45,7 +45,7 @@
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp c060875b-4b22-47af-ad05-d237a1cb5f9c))
   (pad "1" smd rect (at -0.95 0 90) (size 1.1 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6a2eed0b-5281-44cd-866e-02ef6fc29c2a))
   (pad "2" smd rect (at 0.95 0) (size 0.8 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aa2988ed-d610-413e-8011-8933a8d4b064))
-  (model "${KIPRJMOD}/lib/3dmodels/CUHS20S40,H3F.stp"
+  (model "${KIPRJMOD}/../lib/3dmodels/CUHS20S40,H3F.stp"
     (offset (xyz -0.279999997 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

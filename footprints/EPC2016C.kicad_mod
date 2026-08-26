@@ -270,7 +270,7 @@
 		(uuid "52de738d-7e2a-4cd0-83a5-7174c6da4647")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_REPO}/lib/3dmodels/EPC2016C.step"
+	(model "${KIPRJMOD}/../lib/3dmodels/EPC2016C.step"
 		(offset
 			(xyz 0 0 0)
 		)

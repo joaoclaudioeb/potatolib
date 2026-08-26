@@ -942,7 +942,7 @@
 		(uuid "79f811f3-cd7a-4be5-9e34-02f87113baaf")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/lrfhss-test-board/lib/3dmodels/LoRa126XF30.step"
+	(model "${KIPRJMOD}/../lib/3dmodels/LoRa126XF30.step"
 		(offset
 			(xyz 0 0 0)
 		)

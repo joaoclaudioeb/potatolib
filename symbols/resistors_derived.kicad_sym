@@ -1,0 +1,1542 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "potatolib.py")
+	(generator_version "1.0")
+	(symbol
+		"_RES_0603_base"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R?" (at 0 4.516 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "" (at 0 2.266 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			""
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			""
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			""
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			""
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "MPN" "" (at 42.098 -3.81 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			""
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"_RES_0603_base_0_1"
+			(polyline (pts (xy -2.286 0) (xy -2.54 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline
+				(pts (xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy 2.286 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"_RES_0603_base_1_0"
+			(pin
+				passive
+				line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"CRCW04021M00FKED"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "1M" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.1W, 1M, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW04021M00FKED"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW04025K11FKED"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "5.11k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.1W, 5.11k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW04025K11FKED"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW06030000Z0EAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "0R" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Jumper, 0.33W, 0R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW06030000Z0EAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW0603100KFKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "100k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 100k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW0603100KFKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060310K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "10k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 10k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060310K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060310R0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "10R" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 10R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060310R0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW0603110KFKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "110k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 110k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW0603110KFKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060312K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "12k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 12k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060312K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060313K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "13k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 13k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060313K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW0603150KFKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "150k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 150k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW0603150KFKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060315K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "15k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 15k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060315K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW06031K00FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "1k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 1k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW06031K00FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060320K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "20k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 20k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060320K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060324K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "24k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 24k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060324K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW06032R20FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "2.2R" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 2.2R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW06032R20FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060330K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "30k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 30k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060330K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060330K1FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "30.1k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 30.1k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060330K1FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW0603470RFKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "470R" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 470R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW0603470RFKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060347K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "47k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 47k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060347K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW06035K23FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "5.23k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.25W, 5.23k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW06035K23FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW06037K50FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "7.5k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 7.5k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW06037K50FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060382K0FKEA"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "82k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.1W, 82k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060382K0FKEA"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW06038K20FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "8.2k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.33W, 8.2k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW06038K20FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW060390K9FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "90.9k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0603"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.25W, 90.9k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW060390K9FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW080520K0FKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "20k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0805"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.5W, 20k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0805"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW080520K0FKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW0805270KFKEAHP"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "270k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0805"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.5W, 270k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0805"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW0805270KFKEAHP"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CRCW20102R00FKEF"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "2R" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.75W, 2R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CRCW20102R00FKEF"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"RC0402FR-07100KL"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "100k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 1/16W, 100k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"YAGEO"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"RC0402FR-07100KL"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"RC0402FR-075K23L"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "5.23k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 1/16W, 5.23k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"YAGEO"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"RC0402FR-075K23L"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"RC0402JR-070RL"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "0R" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Jumper, 0402, 0R"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"YAGEO"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"RC0402JR-070RL"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"RC0805FR-0710KL"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "10k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0805"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://br.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 0.125W, 10k, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"YAGEO"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0805"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"RC0805FR-0710KL"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"RT0402BRD07100RL"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "100R" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.yageo.com/upload/media/product/app/datasheet/p/RT-Series-1.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Thin film resistor, 1/16W, 100R, 0.1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"YAGEO"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"RT0402BRD07100RL"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"RT0402BRD071KL"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "1k" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.yageo.com/upload/media/product/app/datasheet/p/RT-Series-1.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Thin film resistor, 1/16W, 1k, 0.1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"YAGEO"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"RT0402BRD071KL"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL20105L000FEA"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "5m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 0.5W, 0.005R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL20105L000FEA"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL20108L000FEA18"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "8m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/31057/wslhigh.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 1W, 0.008R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL20108L000FEA18"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL2010R0160FEA"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "16m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 0.5W, 0.016R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL2010R0160FEA"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL2010R0180FEA"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "18m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 0.5W, 0.018R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL2010R0180FEA"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL2010R0200FEA"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "20m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 0.5W, 0.02R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL2010R0200FEA"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL2010R0250FEA18"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "25m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/31057/wslhigh.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 1W, 0.025R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL2010R0250FEA18"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL2010R0330FEA"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "33m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 0.5W, 0.033R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL2010R0330FEA"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL2010R2000FEA18"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "200m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 1W, 0.2R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2010"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL2010R2000FEA18"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"WSL2512R0330FEA18"
+		(extends "_RES_0603_base")
+		(property "Reference" "" (at 0 0 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "33m" (at 0 2.032 0) (do_not_autoplace) (effects (font (size 0.8 0.8))))
+		(property
+			"Footprint"
+			"footprints:RES2010"
+			(at 22.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/31057/wslhigh.pdf"
+			(at 22.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Current sense resistor, 2W, 0.033R, 1%"
+			(at 22.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 22.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2512"
+			(at 22.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"WSL2512R0330FEA18"
+			(at 22.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))))

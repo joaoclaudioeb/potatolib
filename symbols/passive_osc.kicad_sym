@@ -1,53 +1,22 @@
 (kicad_symbol_lib
 	(version 20241209)
-	(generator "generate_symbols.py")
-	(generator_version "2.0")
+	(generator "potatolib.py")
+	(generator_version "1.0")
 	(symbol
-		"ABS07-32.768KHZ-T"
+		"_crystal_2pin"
 		(pin_numbers (hide yes))
 		(pin_names (hide yes))
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(embedded_fonts no)
 		(property "Reference" "Y?" (at 0 7.056 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property "Value" "32.768kHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property
-			"Footprint"
-			"footprints:ABS07-32.768KHZ-T"
-			(at 42.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Datasheet"
-			"https://abracon.com/Resonators/abs07.pdf"
-			(at 42.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Manufacturer"
-			"ABRACON"
-			(at 42.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Package"
-			"SMD 3215"
-			(at 42.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"MPN"
-			"ABS07-32.768KHZ-T"
-			(at 42.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Description"
-			"Crystal, 32.768kHz, 12.5pF, 20ppm"
-			(at 42.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "Value" "" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(symbol
-			"ABS07-32.768KHZ-T_0_1"
+			"_crystal_2pin_0_1"
 			(polyline (pts (xy -2.54 0) (xy -2.032 0)) (stroke (width 0) (type default)) (fill (type none)))
 			(polyline (pts (xy 2.032 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
 		(symbol
-			"ABS07-32.768KHZ-T_1_0"
+			"_crystal_2pin_1_0"
 			(pin
 				passive
 				line
@@ -63,176 +32,23 @@
 				(name "" (effects (font (size 1.27 1.27))))
 				(number "2" (effects (font (size 1.27 1.27))))))
 		(symbol
-			"ABS07-32.768KHZ-T_1_1"
-			(polyline
-				(pts (xy -1.016 3.556) (xy 1.016 3.556) (xy 1.016 -3.556) (xy -1.016 -3.556) (xy -1.016 3.556))
-				(stroke (width 0.254) (type solid))
-				(fill (type background)))
+			"_crystal_2pin_1_1"
 			(polyline
 				(pts (xy -2.032 2.54) (xy -2.032 -2.54))
 				(stroke (width 0.254) (type solid))
 				(fill (type none)))
 			(polyline
-				(pts (xy 2.032 2.54) (xy 2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))))
-	(symbol
-		"ABS07-32.768KHZ-7-T"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(embedded_fonts no)
-		(property "Reference" "Y?" (at 0 7.056 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property "Value" "32.768kHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property
-			"Footprint"
-			"footprints:ABS07-32.768KHZ-7-T"
-			(at 42.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Datasheet"
-			"https://abracon.com/Resonators/abs07.pdf"
-			(at 42.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Manufacturer"
-			"ABRACON"
-			(at 42.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Package"
-			"SMD 3215"
-			(at 42.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"MPN"
-			"ABS07-32.768KHZ-7-T"
-			(at 42.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Description"
-			"Crystal, 32.768kHz, 7pF, 20ppm"
-			(at 42.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(symbol
-			"ABS07-32.768KHZ-7-T_0_1"
-			(polyline (pts (xy -2.54 0) (xy -2.032 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 2.032 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
-		(symbol
-			"ABS07-32.768KHZ-7-T_1_0"
-			(pin
-				passive
-				line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))))
-		(symbol
-			"ABS07-32.768KHZ-7-T_1_1"
-			(polyline
 				(pts (xy -1.016 3.556) (xy 1.016 3.556) (xy 1.016 -3.556) (xy -1.016 -3.556) (xy -1.016 3.556))
 				(stroke (width 0.254) (type solid))
 				(fill (type background)))
 			(polyline
-				(pts (xy -2.032 2.54) (xy -2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))
-			(polyline
 				(pts (xy 2.032 2.54) (xy 2.032 -2.54))
 				(stroke (width 0.254) (type solid))
-				(fill (type none)))))
-	(symbol
-		"CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(embedded_fonts no)
-		(property "Reference" "Y?" (at 0 7.056 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property "Value" "32.768kHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property
-			"Footprint"
-			"footprints:CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA"
-			(at 42.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Datasheet"
-			"https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf"
-			(at 42.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Manufacturer"
-			"Micro Crystal"
-			(at 42.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Package"
-			"SMD 3215"
-			(at 42.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"MPN"
-			"CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA"
-			(at 42.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Description"
-			"Crystal, 32.768kHz, 12.5pF, 20ppm"
-			(at 42.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(symbol
-			"CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA_0_1"
-			(polyline (pts (xy -2.54 0) (xy -2.032 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 2.032 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
-		(symbol
-			"CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA_1_0"
-			(pin
-				passive
-				line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))))
-		(symbol
-			"CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA_1_1"
-			(polyline
-				(pts (xy -1.016 3.556) (xy 1.016 3.556) (xy 1.016 -3.556) (xy -1.016 -3.556) (xy -1.016 3.556))
-				(stroke (width 0.254) (type solid))
-				(fill (type background)))
-			(polyline
-				(pts (xy -2.032 2.54) (xy -2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))
-			(polyline
-				(pts (xy 2.032 2.54) (xy 2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))))
+				(fill (type none))))
+		(embedded_fonts no))
 	(symbol
 		"ABLS-7.680MHZ-D-4-Y-T"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(embedded_fonts no)
-		(property "Reference" "Y?" (at 0 7.056 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(extends "_crystal_2pin")
 		(property "Value" "7.68MHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
@@ -263,124 +79,10 @@
 			"Description"
 			"Crystal, 7.68MHz, 18pF, 30ppm"
 			(at 42.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(symbol
-			"ABLS-7.680MHZ-D-4-Y-T_0_1"
-			(polyline (pts (xy -2.54 0) (xy -2.032 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 2.032 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
-		(symbol
-			"ABLS-7.680MHZ-D-4-Y-T_1_0"
-			(pin
-				passive
-				line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))))
-		(symbol
-			"ABLS-7.680MHZ-D-4-Y-T_1_1"
-			(polyline
-				(pts (xy -1.016 3.556) (xy 1.016 3.556) (xy 1.016 -3.556) (xy -1.016 -3.556) (xy -1.016 3.556))
-				(stroke (width 0.254) (type solid))
-				(fill (type background)))
-			(polyline
-				(pts (xy -2.032 2.54) (xy -2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))
-			(polyline
-				(pts (xy 2.032 2.54) (xy 2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))))
-	(symbol
-		"ABM8G-12.000MHZ-18-D2Y-T"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(embedded_fonts no)
-		(property "Reference" "Y?" (at 0 7.056 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property "Value" "12MHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
-		(property
-			"Footprint"
-			"footprints:ABM8G-12.000MHZ-18-D2Y-T"
-			(at 42.098 6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Datasheet"
-			"https://abracon.com/Resonators/ABM8G.pdf"
-			(at 42.098 3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Manufacturer"
-			"ABRACON"
-			(at 42.098 1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Package"
-			"SMD 3225"
-			(at 42.098 -1.27 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"MPN"
-			"ABM8G-12.000MHZ-18-D2Y-T"
-			(at 42.098 -3.81 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property
-			"Description"
-			"Crystal, 12MHz, 18pF, 20ppm"
-			(at 42.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(symbol
-			"ABM8G-12.000MHZ-18-D2Y-T_0_1"
-			(polyline (pts (xy -2.54 0) (xy -2.032 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 2.032 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
-		(symbol
-			"ABM8G-12.000MHZ-18-D2Y-T_1_0"
-			(pin
-				passive
-				line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))))
-		(symbol
-			"ABM8G-12.000MHZ-18-D2Y-T_1_1"
-			(polyline
-				(pts (xy -1.016 3.556) (xy 1.016 3.556) (xy 1.016 -3.556) (xy -1.016 -3.556) (xy -1.016 3.556))
-				(stroke (width 0.254) (type solid))
-				(fill (type background)))
-			(polyline
-				(pts (xy -2.032 2.54) (xy -2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))
-			(polyline
-				(pts (xy 2.032 2.54) (xy 2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))))
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
 		"ABM10W-19.2000MHZ-8-K1Z-T3"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(embedded_fonts no)
-		(property "Reference" "Y?" (at 0 7.056 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(extends "_crystal_2pin")
 		(property "Value" "19.2MHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
@@ -411,50 +113,146 @@
 			"Description"
 			"Crystal, 19.2MHz, 8pF, 10ppm"
 			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"ABM8G-12.000MHZ-18-D2Y-T"
+		(extends "_crystal_2pin")
+		(property "Value" "12MHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ABM8G-12.000MHZ-18-D2Y-T"
+			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(symbol
-			"ABM10W-19.2000MHZ-8-K1Z-T3_0_1"
-			(polyline (pts (xy -2.54 0) (xy -2.032 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 2.032 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
-		(symbol
-			"ABM10W-19.2000MHZ-8-K1Z-T3_1_0"
-			(pin
-				passive
-				line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))))
-		(symbol
-			"ABM10W-19.2000MHZ-8-K1Z-T3_1_1"
-			(polyline
-				(pts (xy -1.016 3.556) (xy 1.016 3.556) (xy 1.016 -3.556) (xy -1.016 -3.556) (xy -1.016 3.556))
-				(stroke (width 0.254) (type solid))
-				(fill (type background)))
-			(polyline
-				(pts (xy -2.032 2.54) (xy -2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))
-			(polyline
-				(pts (xy 2.032 2.54) (xy 2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))))
+		(property
+			"Datasheet"
+			"https://abracon.com/Resonators/ABM8G.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3225"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ABM8G-12.000MHZ-18-D2Y-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Crystal, 12MHz, 18pF, 20ppm"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"ABS07-32.768KHZ-7-T"
+		(extends "_crystal_2pin")
+		(property "Value" "32.768kHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ABS07-32.768KHZ-7-T"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://abracon.com/Resonators/abs07.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3215"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ABS07-32.768KHZ-7-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Crystal, 32.768kHz, 7pF, 20ppm"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"ABS07-32.768KHZ-T"
+		(extends "_crystal_2pin")
+		(property "Value" "32.768kHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:ABS07-32.768KHZ-T"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://abracon.com/Resonators/abs07.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"ABRACON"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3215"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ABS07-32.768KHZ-T"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Crystal, 32.768kHz, 12.5pF, 20ppm"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA"
+		(extends "_crystal_2pin")
+		(property "Value" "32.768kHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Micro Crystal"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3215"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CM7V-T1A-32.768KHZ-12.5PF-20PPM-TB-QA"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Crystal, 32.768kHz, 12.5pF, 20ppm"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
 		"RH100-24.000-8-1015-EXT-TR-NS1"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(embedded_fonts no)
-		(property "Reference" "Y?" (at 0 7.056 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(extends "_crystal_2pin")
 		(property "Value" "24MHz" (at 0 4.806 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
@@ -485,38 +283,4 @@
 			"Description"
 			"Crystal, 24MHz, 8pF, 10ppm"
 			(at 42.098 -6.35 0)
-			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(symbol
-			"RH100-24.000-8-1015-EXT-TR-NS1_0_1"
-			(polyline (pts (xy -2.54 0) (xy -2.032 0)) (stroke (width 0) (type default)) (fill (type none)))
-			(polyline (pts (xy 2.032 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
-		(symbol
-			"RH100-24.000-8-1015-EXT-TR-NS1_1_0"
-			(pin
-				passive
-				line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))))
-		(symbol
-			"RH100-24.000-8-1015-EXT-TR-NS1_1_1"
-			(polyline
-				(pts (xy -1.016 3.556) (xy 1.016 3.556) (xy 1.016 -3.556) (xy -1.016 -3.556) (xy -1.016 3.556))
-				(stroke (width 0.254) (type solid))
-				(fill (type background)))
-			(polyline
-				(pts (xy -2.032 2.54) (xy -2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none)))
-			(polyline
-				(pts (xy 2.032 2.54) (xy 2.032 -2.54))
-				(stroke (width 0.254) (type solid))
-				(fill (type none))))))
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))))

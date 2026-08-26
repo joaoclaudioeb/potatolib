@@ -49,7 +49,7 @@
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 2522f72a-9360-4b11-8690-8daf15cd4dd9))
   (pad "1" smd rect (at -2.2 0) (size 1.4 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5497b199-1654-4a37-a40a-1fbfe8e7d3f9))
   (pad "2" smd rect (at 2.2 0) (size 1.4 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8dac9859-1219-4cd5-a16e-b438f2f40289))
-  (model "${KIPRJMOD}/lib/3dmodels/PMEG3050EP,115.stp"
+  (model "${KIPRJMOD}/../lib/3dmodels/PMEG3050EP,115.stp"
     (offset (xyz -2.019999951 6.969999686 -4.709999967))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

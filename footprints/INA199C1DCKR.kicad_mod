@@ -227,7 +227,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "097ac030-c735-4bb9-a2cc-54d24d45b532")
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/INA199C1DCKR.stp"
+	(model "${KIPRJMOD}/../lib/3dmodels/INA199C1DCKR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

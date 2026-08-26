@@ -1027,7 +1027,7 @@
 		(uuid "891816b1-2022-4825-85bb-2ff0598fd676")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/mosfet-tid-test-boards/lib/3dmodels/09665627811.stp"
+	(model "${KIPRJMOD}/../lib/3dmodels/09665627811.stp"
 		(offset
 			(xyz 0 -15.12 0.77)
 		)

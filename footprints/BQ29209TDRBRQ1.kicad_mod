@@ -71,7 +71,7 @@
   (pad "V" thru_hole circle (at 0 -0.950001) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask") (tstamp 3eb381ec-7c8d-48be-8eb0-f38e0df1432c))
   (pad "V" thru_hole circle (at 0 0.950001) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask") (tstamp 429262e5-4059-443c-b200-ab5eb0889c81))
   (pad "V" thru_hole circle (at 0.575 0) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask") (tstamp 02c1142a-f3e2-42dd-852a-417ce5967b37))
-  (model "${KIPRJMOD}/lib/3dmodels/BQ29209TDRBRQ1.stp"
+  (model "${KIPRJMOD}/../lib/3dmodels/BQ29209TDRBRQ1.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

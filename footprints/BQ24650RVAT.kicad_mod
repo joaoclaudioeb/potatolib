@@ -638,7 +638,7 @@
   (pad "18" thru_hole circle (at -0.3937 0.3937) (size 0.508 0.508) (drill 0.254) (layers "*.Cu" "*.Mask") (tstamp 7cfce238-7240-431d-8c87-f3da75acce71))
   (pad "18" thru_hole circle (at 0.3937 -0.3937) (size 0.508 0.508) (drill 0.254) (layers "*.Cu" "*.Mask") (tstamp 79ed4c18-b39a-4288-8180-fda9c1cc0e64))
   (pad "18" thru_hole circle (at 0.3937 0.3937) (size 0.508 0.508) (drill 0.254) (layers "*.Cu" "*.Mask") (tstamp 0ad334d1-1819-4a5e-9320-99ee23224ce2))
-  (model "${KIPRJMOD}/lib/3dmodels/BQ24650RVAT.stp"
+  (model "${KIPRJMOD}/../lib/3dmodels/BQ24650RVAT.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

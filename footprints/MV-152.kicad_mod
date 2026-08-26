@@ -243,7 +243,7 @@
 		(uuid "2dc2596e-961d-4e9e-8000-28f912498f4a")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/lrfhss-test-board/lib/3dmodels/MV-152.stp"
+	(model "${KIPRJMOD}/../lib/3dmodels/MV-152.stp"
 		(offset
 			(xyz 42.5 -114.5 0)
 		)

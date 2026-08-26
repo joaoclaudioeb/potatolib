@@ -359,7 +359,7 @@
 		(uuid "d3ad23aa-4585-4489-bcfd-f0e6070ef6e5")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/lrfhss-test-board/lib/3dmodels/DC_Power_Jack_PCB_Mounted_2.1mm.step"
+	(model "${KIPRJMOD}/../lib/3dmodels/DC_Power_Jack_PCB_Mounted_2.1mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

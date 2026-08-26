@@ -41,7 +41,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 232d4040-875a-4f43-a234-0bfbf39ea36c))
   (pad "1" smd roundrect (at -0.75 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp abdd4ca6-88bd-40d3-8bfc-818c27966f25))
   (pad "2" smd roundrect (at 0.75 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2b59e2bc-60d1-43cf-9848-3d3a6a591652))
-  (model "${KIPRJMOD}/lib/3dmodels/LTST-C190GKT.step"
+  (model "${KIPRJMOD}/../lib/3dmodels/LTST-C190GKT.step"
     (offset (xyz -0.02 0 0.14))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

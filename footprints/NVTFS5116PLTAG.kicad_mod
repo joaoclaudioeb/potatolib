@@ -69,7 +69,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp 1581fc46-a5f6-4e92-893c-c38338cf2429))
-  (model "${KIPRJMOD}/lib/3dmodels/NVTFS5116PLTAG.stp"
+  (model "${KIPRJMOD}/../lib/3dmodels/NVTFS5116PLTAG.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 180))

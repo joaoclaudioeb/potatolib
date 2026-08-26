@@ -1,7 +1,7 @@
 (kicad_symbol_lib
 	(version 20241209)
-	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator "potatolib.py")
+	(generator_version "1.0")
 	(symbol
 		"REF5020AID"
 		(exclude_from_sim no)
@@ -68,15 +68,15 @@
 			(pin
 				no_connect
 				line
-				(at 7.62 -7.62 180)
+				(at -2.54 -7.62 90)
 				(length 2.54)
 				(hide yes)
 				(name "DNC" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
+				(number "8" (effects (font (size 1.27 1.27)))))
 			(pin
 				no_connect
 				line
-				(at 7.62 -10.16 180)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC" (effects (font (size 1.27 1.27))))
@@ -84,11 +84,11 @@
 			(pin
 				no_connect
 				line
-				(at 7.62 -12.7 180)
+				(at 2.54 -7.62 90)
 				(length 2.54)
 				(hide yes)
 				(name "DNC" (effects (font (size 1.27 1.27))))
-				(number "8" (effects (font (size 1.27 1.27)))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				power_out
 				line
@@ -170,15 +170,15 @@
 			(pin
 				no_connect
 				line
-				(at 7.62 -7.62 180)
+				(at -2.54 -7.62 90)
 				(length 2.54)
 				(hide yes)
 				(name "DNC" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27)))))
+				(number "8" (effects (font (size 1.27 1.27)))))
 			(pin
 				no_connect
 				line
-				(at 7.62 -10.16 180)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC" (effects (font (size 1.27 1.27))))
@@ -186,11 +186,11 @@
 			(pin
 				no_connect
 				line
-				(at 7.62 -12.7 180)
+				(at 2.54 -7.62 90)
 				(length 2.54)
 				(hide yes)
 				(name "DNC" (effects (font (size 1.27 1.27))))
-				(number "8" (effects (font (size 1.27 1.27)))))
+				(number "1" (effects (font (size 1.27 1.27)))))
 			(pin
 				power_out
 				line

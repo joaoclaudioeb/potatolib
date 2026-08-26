@@ -349,7 +349,7 @@
 		(uuid "40c25167-f51f-4443-a135-6414d368452e")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/lrfhss-test-board/lib/3dmodels/142-0701-801.step"
+	(model "${KIPRJMOD}/../lib/3dmodels/142-0701-801.step"
 		(offset
 			(xyz 0 4 0)
 		)

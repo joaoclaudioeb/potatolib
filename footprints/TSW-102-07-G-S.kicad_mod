@@ -212,7 +212,7 @@
 		(uuid "ec8be92f-6dc2-4a68-a9cf-24e8e9797ffe")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/lrfhss-test-board/lib/3dmodels/TSW-102-07-G-S.stp"
+	(model "${KIPRJMOD}/../lib/3dmodels/TSW-102-07-G-S.stp"
 		(offset
 			(xyz 1.279999952 -0.009999999626 -0.1099999978)
 		)

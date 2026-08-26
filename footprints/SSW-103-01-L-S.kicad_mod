@@ -250,7 +250,7 @@
 		(uuid "4c5f19bc-1533-48c2-b192-368d0ae31043")
 	)
 	(embedded_fonts no)
-	(model "/home/joaoc/Documents/github-folder/mosfet-tid-test-boards/lib/3dmodels/SSW-103-01-L-S.step"
+	(model "${KIPRJMOD}/../lib/3dmodels/SSW-103-01-L-S.step"
 		(offset
 			(xyz 2.5 0 0)
 		)
