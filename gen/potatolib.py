@@ -4,13 +4,18 @@ potatolib.py - KiCad symbol library tooling.
 
     updt_symbols     rebuild every library that has a CSV in gen/
     updt_positions   normalize field layout in every hand-made library
-    all              both
+    updt_tables      write sym-lib-table / fp-lib-table for a project
+    all              updt_symbols + updt_positions
 
 A library is GENERATED when gen/<name>.csv exists, HAND-MADE otherwise.
 updt_positions never touches a generated library.
 
 Field layout (positions, fonts, order) comes from config.json for both
 commands, so generated and hand-made symbols always look the same.
+
+updt_tables takes a project directory and writes its KiCad library tables
+from whatever is on disk here. Entries that do not point into this library
+are preserved, so official/global libraries are never touched.
 """
 
 import argparse
@@ -23,10 +28,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 
 
-# ============================================================================
-# 1. S-expressions
-# ============================================================================
-
+# S-expressions
 SINGLE_LINE = {
     'pts', 'xy', 'at', 'start', 'end', 'mid', 'stroke', 'fill', 'effects',
     'font', 'justify', 'offset', 'size', 'hide', 'do_not_autoplace', 'extends',
@@ -103,10 +105,7 @@ def dump_lib(symbols):
     return serialize(tree + symbols, 0) + '\n'
 
 
-# ============================================================================
-# 2. Symbol structure
-# ============================================================================
-
+# Symbol structure
 HEADER_NODES = ('pin_numbers', 'pin_names', 'exclude_from_sim',
                 'in_bom', 'on_board')
 GRAPHIC_NODES = ('polyline', 'arc', 'circle', 'rectangle', 'bezier')
@@ -223,10 +222,7 @@ def assemble(sym, properties):
     return head + properties + rest
 
 
-# ============================================================================
-# 3. Field layout  (the one rule both commands obey)
-# ============================================================================
-
+# Field layout  (the one rule both commands obey)
 def build_property(name, value, x, y, size, visible, justify=None, pin=False):
     s = str(size)
     effects = ['effects', ['font', ['size', s, s]]]
@@ -275,10 +271,7 @@ def field_nodes(values, cfg, y_max, with_reference=True, ref_default='U?'):
     return out
 
 
-# ============================================================================
-# 4. Sources
-# ============================================================================
-
+# Sources
 def discover(gen_dir, sym_dir):
     """(generated, handmade) - a library is generated iff its CSV exists."""
     csvs = sorted(p for p in gen_dir.glob('*.csv'))
@@ -305,10 +298,109 @@ def plural(n, one, many):
     return f'{n} {one if n == 1 else many}'
 
 
-# ============================================================================
-# 5. Commands
-# ============================================================================
+# Library tables
+TABLE_SPECS = {
+    'sym': ('sym_lib_table', 'sym-lib-table'),
+    'fp': ('fp_lib_table', 'fp-lib-table'),
+}
 
+
+def parse_table(path):
+    """Existing (nickname, uri) pairs, or [] if the file is absent/unreadable."""
+    if not path.exists():
+        return []
+    try:
+        tree, _ = parse_sexpr(tokenize(path.read_text(encoding='utf-8')), 0)
+    except Exception:
+        return []
+    out = []
+    for node in tree:
+        if isinstance(node, list) and node and node[0] == 'lib':
+            fields, flags = {}, []
+            for n in node[1:]:
+                if isinstance(n, list) and len(n) > 1:
+                    fields[n[0]] = n[1].strip('"')
+                elif isinstance(n, list) and len(n) == 1:
+                    flags.append(n[0])          # (hidden), (disabled), ...
+            if 'name' in fields:
+                out.append((fields['name'], fields.get('uri', ''), flags))
+    return out
+
+
+def render_table(kind, entries):
+    token = TABLE_SPECS[kind][0]
+    lines = [f'({token}', '  (version 7)']
+    for nick, uri, flags in entries:
+        tail = ''.join(f'({f})' for f in flags)
+        lines.append(f'  (lib (name "{nick}")(type "KiCad")(uri "{uri}")'
+                     f'(options "")(descr ""){tail})')
+    return '\n'.join(lines) + '\n)\n'
+
+
+def wanted_entries(kind, gen_dir, sym_dir, cfg, with_templates):
+    prefix = cfg.get('lib_prefix', '')
+    base = cfg.get('lib_uri_base', '${KIPRJMOD}/../lib')
+    if kind == 'fp':
+        return [(f'{prefix}footprints', f'{base}/footprints', [])]
+    out = [(prefix + p.stem, f'{base}/symbols/{p.name}', [])
+           for p in sorted(sym_dir.glob('*.kicad_sym'))]
+    if with_templates:
+        # last, and hidden: templates must not be placeable in a schematic
+        out.append(('_templates', f'{base}/gen/_templates.kicad_sym', ['hidden']))
+    return out
+
+
+def cmd_updt_tables(cfg, args):
+    base = cfg.get('lib_uri_base', '${KIPRJMOD}/../lib')
+    marker = base.rstrip('/') + '/'
+    project = Path(args.project).resolve()
+    target = project / 'sources' if (project / 'sources').is_dir() else project
+
+    if not list(target.glob('*.kicad_pro')):
+        print(f'error: no .kicad_pro in {target}', file=sys.stderr)
+        print('       is this a KiCad project? use --project to point elsewhere.',
+              file=sys.stderr)
+        return [f'updt_tables: {target} is not a KiCad project']
+
+    print(f'project     {project}')
+    print(f'tables in   {target}\n')
+
+    problems = []
+    for kind in ('sym', 'fp'):
+        path = target / TABLE_SPECS[kind][1]
+        old = parse_table(path)
+        foreign = [e for e in old if not e[1].startswith(marker)]
+        mine = wanted_entries(kind, args.gen, args.symbols, cfg,
+                              args.templates_too)
+        text = render_table(kind, foreign + mine)
+
+        if not path.exists():
+            state = 'created'
+        elif path.read_text(encoding='utf-8') == text:
+            state = 'unchanged'
+        else:
+            state = 'updated'
+        if state != 'unchanged' and not args.dry_run:
+            path.write_text(text, encoding='utf-8')
+
+        note = f'{len(mine)} own'
+        if foreign:
+            note += f', {len(foreign)} kept'
+        print(f'  {TABLE_SPECS[kind][1]:<16} {note:<20} {state}')
+        if args.verbose:
+            for nick, _, flags in foreign:
+                extra = ' ' + ' '.join(flags) if flags else ''
+                print(f'                   = {nick}{extra}  (kept)')
+            for nick, _, flags in mine:
+                extra = ' ' + ' '.join(flags) if flags else ''
+                print(f'                   + {nick}{extra}')
+
+    if args.dry_run:
+        print('\n[dry run]')
+    return problems
+
+
+# Commands
 def cmd_updt_symbols(cfg, args):
     templates = load_sym(args.templates)
     tnames = {name_of(s) for s in top_symbols(templates)}
@@ -457,21 +549,23 @@ def reposition(sym, cfg):
     return assemble(sym, field_nodes(values, cfg, y_max, ref_default=ref))
 
 
-# ============================================================================
-# 6. Main
-# ============================================================================
-
+# Main
 def main():
     ap = argparse.ArgumentParser(
         description='KiCad symbol library tooling.',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='updt_symbols rebuilds libraries from CSVs; updt_positions\n'
-               'normalizes hand-made ones. Neither takes file arguments.')
-    ap.add_argument('command', choices=['updt_symbols', 'updt_positions', 'all'])
+               'normalizes hand-made ones; updt_tables --project <dir> writes\n'
+               'that project sym-lib-table and fp-lib-table.')
+    ap.add_argument('command',
+                    choices=['updt_symbols', 'updt_positions', 'updt_tables', 'all'])
     ap.add_argument('--gen', type=Path, default=HERE)
     ap.add_argument('--symbols', type=Path, default=HERE.parent / 'symbols')
     ap.add_argument('--templates', default=str(HERE / '_templates.kicad_sym'))
     ap.add_argument('--config', default=str(HERE / 'config.json'))
+    ap.add_argument('--project', type=Path, default=HERE.parent.parent,
+                    help='project directory for updt_tables '
+                         '(default: two levels up from this script)')
     ap.add_argument('--only', nargs='+', metavar='NAME',
                     help='restrict to these library names')
     ap.add_argument('--no-templates', dest='templates_too', action='store_false',
@@ -488,6 +582,8 @@ def main():
         print()
     if args.command in ('updt_positions', 'all'):
         problems += cmd_updt_positions(cfg, args)
+    if args.command == 'updt_tables':
+        problems += cmd_updt_tables(cfg, args)
 
     if problems:
         print(f'\n{len(problems)} problem(s):')

@@ -1,127 +1,65 @@
 (kicad_symbol_lib
-	(version 20231120)
-	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "MountingHole"
-		(pin_names
-			(offset 1.016)
-		)
+	(version 20241209)
+	(generator "potatolib.py")
+	(generator_version "1.0")
+	(symbol
+		"MountingHole"
+		(pin_names (hide yes))
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "H?"
-			(at 0 3.81 0)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "Mounting hole (3.2 mm)"
-			(at 0 2.54 0)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "N/A"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "N/A"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "MountingHole*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MountingHole_0_1"
-			(circle
-				(center 0 0)
-				(radius 1.27)
-				(stroke
-					(width 1.27)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "MountingHole_1_1"
-			(pin no_connect line
+		(property "Reference" "H?" (at 0 3.5 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Value"
+			"Mounting hole (3.2 mm)"
+			(at 0 1.25 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:MountingHole"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"N/A"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"N/A"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"N/A"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"N/A"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			""
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"ki_fp_filters"
+			"MountingHole*"
+			(at 42.098 -8.89 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"MountingHole_0_1"
+			(circle (center 0 0) (radius 1.27) (stroke (width 1.27) (type default)) (fill (type none))))
+		(symbol
+			"MountingHole_1_1"
+			(pin
+				no_connect
+				line
 				(at 5.08 0 180)
-				(length 2.54) hide
-				(name ""
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-		)
-	)
-)
+				(length 2.54)
+				hide
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))))))

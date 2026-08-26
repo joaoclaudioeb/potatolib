@@ -22,13 +22,6 @@
     "font_size": 1.27,
     "justify": "left"
   },
-  "info_table": {
-    "_comment": "The private graphical table drawn to the right of the symbol",
-    "enabled": true,
-    "line_start_x": 16.002,
-    "label_x": 19.05,
-    "label_font_size": 0.508
-  },
   "fields_order": [
     "Footprint",
     "Datasheet",
@@ -44,6 +37,8 @@
     "hide": true
   },
   "allow_kicad_autoplace": false,
+  "base_prefix": "_",
+  "lib_prefix": "potato-",
   "pin_text": {
     "name_font_size": 1.27,
     "number_font_size": 1.27
