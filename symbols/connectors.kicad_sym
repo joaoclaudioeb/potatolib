@@ -847,6 +847,130 @@
 				(number "MP" (effects (font (size 1.27 1.27))))))
 		(embedded_fonts no))
 	(symbol
+		"_conn_1x09_male"
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J?" (at 0 14.93 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "" (at 0 12.68 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(symbol
+			"_conn_1x09_male_1_1"
+			(rectangle
+				(start -1.27 11.43)
+				(end 1.27 -11.43)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(rectangle
+				(start -1.27 10.287)
+				(end 0 10.033)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 7.747)
+				(end 0 7.493)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -10.033)
+				(end 0 -10.287)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(pin
+				passive
+				line
+				(at -5.08 10.16 0)
+				(length 3.81)
+				(name "Pin_1" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 7.62 0)
+				(length 3.81)
+				(name "Pin_2" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_3" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_4" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_5" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_6" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_7" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_8" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -10.16 0)
+				(length 3.81)
+				(name "Pin_9" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
 		"_conn_1x10_mp_male"
 		(pin_names (hide yes))
 		(exclude_from_sim no)
@@ -993,6 +1117,262 @@
 				(length 3.048)
 				(name "MountPin" (effects (font (size 1.27 1.27))))
 				(number "MP" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
+		"_conn_2x10_male"
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J?" (at 0 14.93 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "" (at 0 12.68 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(symbol
+			"_conn_2x10_male_1_1"
+			(rectangle
+				(start -1.27 11.43)
+				(end 3.81 -13.97)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(rectangle
+				(start -1.27 10.287)
+				(end 0 10.033)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 7.747)
+				(end 0 7.493)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -10.033)
+				(end 0 -10.287)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start -1.27 -12.573)
+				(end 0 -12.827)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 10.287)
+				(end 2.54 10.033)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 7.747)
+				(end 2.54 7.493)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 5.207)
+				(end 2.54 4.953)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 2.667)
+				(end 2.54 2.413)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 0.127)
+				(end 2.54 -0.127)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 -2.413)
+				(end 2.54 -2.667)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 -4.953)
+				(end 2.54 -5.207)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 -7.493)
+				(end 2.54 -7.747)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 -10.033)
+				(end 2.54 -10.287)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(rectangle
+				(start 3.81 -12.573)
+				(end 2.54 -12.827)
+				(stroke (width 0.1524) (type default))
+				(fill (type outline)))
+			(pin
+				passive
+				line
+				(at -5.08 10.16 0)
+				(length 3.81)
+				(name "Pin_1" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 7.62 0)
+				(length 3.81)
+				(name "Pin_2" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_3" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_4" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_5" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_6" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_7" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_8" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -10.16 0)
+				(length 3.81)
+				(name "Pin_9" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -12.7 0)
+				(length 3.81)
+				(name "Pin_10" (effects (font (size 1.27 1.27))))
+				(number "10" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 10.16 180)
+				(length 3.81)
+				(name "Pin_20" (effects (font (size 1.27 1.27))))
+				(number "20" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 7.62 180)
+				(length 3.81)
+				(name "Pin_19" (effects (font (size 1.27 1.27))))
+				(number "19" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 5.08 180)
+				(length 3.81)
+				(name "Pin_18" (effects (font (size 1.27 1.27))))
+				(number "18" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 2.54 180)
+				(length 3.81)
+				(name "Pin_17" (effects (font (size 1.27 1.27))))
+				(number "17" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "Pin_16" (effects (font (size 1.27 1.27))))
+				(number "16" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -2.54 180)
+				(length 3.81)
+				(name "Pin_15" (effects (font (size 1.27 1.27))))
+				(number "15" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -5.08 180)
+				(length 3.81)
+				(name "Pin_14" (effects (font (size 1.27 1.27))))
+				(number "14" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -7.62 180)
+				(length 3.81)
+				(name "Pin_13" (effects (font (size 1.27 1.27))))
+				(number "13" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -10.16 180)
+				(length 3.81)
+				(name "Pin_12" (effects (font (size 1.27 1.27))))
+				(number "12" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -12.7 180)
+				(length 3.81)
+				(name "Pin_11" (effects (font (size 1.27 1.27))))
+				(number "11" (effects (font (size 1.27 1.27))))))
 		(embedded_fonts no))
 	(symbol
 		"_conn_2x26_female"
@@ -1454,171 +1834,10 @@
 			(pin
 				passive
 				line
-				(at 7.62 -33.02 180)
+				(at 7.62 30.48 180)
 				(length 3.81)
-				(name "Pin_27" (effects (font (size 1.27 1.27))))
-				(number "27" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -30.48 180)
-				(length 3.81)
-				(name "Pin_28" (effects (font (size 1.27 1.27))))
-				(number "28" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -27.94 180)
-				(length 3.81)
-				(name "Pin_29" (effects (font (size 1.27 1.27))))
-				(number "29" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -25.4 180)
-				(length 3.81)
-				(name "Pin_30" (effects (font (size 1.27 1.27))))
-				(number "30" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -22.86 180)
-				(length 3.81)
-				(name "Pin_31" (effects (font (size 1.27 1.27))))
-				(number "31" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -20.32 180)
-				(length 3.81)
-				(name "Pin_32" (effects (font (size 1.27 1.27))))
-				(number "32" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -17.78 180)
-				(length 3.81)
-				(name "Pin_33" (effects (font (size 1.27 1.27))))
-				(number "33" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -15.24 180)
-				(length 3.81)
-				(name "Pin_34" (effects (font (size 1.27 1.27))))
-				(number "34" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -12.7 180)
-				(length 3.81)
-				(name "Pin_35" (effects (font (size 1.27 1.27))))
-				(number "35" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -10.16 180)
-				(length 3.81)
-				(name "Pin_36" (effects (font (size 1.27 1.27))))
-				(number "36" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -7.62 180)
-				(length 3.81)
-				(name "Pin_37" (effects (font (size 1.27 1.27))))
-				(number "37" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -5.08 180)
-				(length 3.81)
-				(name "Pin_38" (effects (font (size 1.27 1.27))))
-				(number "38" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 -2.54 180)
-				(length 3.81)
-				(name "Pin_39" (effects (font (size 1.27 1.27))))
-				(number "39" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "Pin_40" (effects (font (size 1.27 1.27))))
-				(number "40" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 2.54 180)
-				(length 3.81)
-				(name "Pin_41" (effects (font (size 1.27 1.27))))
-				(number "41" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 5.08 180)
-				(length 3.81)
-				(name "Pin_42" (effects (font (size 1.27 1.27))))
-				(number "42" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 7.62 180)
-				(length 3.81)
-				(name "Pin_43" (effects (font (size 1.27 1.27))))
-				(number "43" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 10.16 180)
-				(length 3.81)
-				(name "Pin_44" (effects (font (size 1.27 1.27))))
-				(number "44" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 12.7 180)
-				(length 3.81)
-				(name "Pin_45" (effects (font (size 1.27 1.27))))
-				(number "45" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 15.24 180)
-				(length 3.81)
-				(name "Pin_46" (effects (font (size 1.27 1.27))))
-				(number "46" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 17.78 180)
-				(length 3.81)
-				(name "Pin_47" (effects (font (size 1.27 1.27))))
-				(number "47" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 20.32 180)
-				(length 3.81)
-				(name "Pin_48" (effects (font (size 1.27 1.27))))
-				(number "48" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 22.86 180)
-				(length 3.81)
-				(name "Pin_49" (effects (font (size 1.27 1.27))))
-				(number "49" (effects (font (size 1.27 1.27)))))
-			(pin
-				passive
-				line
-				(at 7.62 25.4 180)
-				(length 3.81)
-				(name "Pin_50" (effects (font (size 1.27 1.27))))
-				(number "50" (effects (font (size 1.27 1.27)))))
+				(name "Pin_52" (effects (font (size 1.27 1.27))))
+				(number "52" (effects (font (size 1.27 1.27)))))
 			(pin
 				passive
 				line
@@ -1629,10 +1848,171 @@
 			(pin
 				passive
 				line
-				(at 7.62 30.48 180)
+				(at 7.62 25.4 180)
 				(length 3.81)
-				(name "Pin_52" (effects (font (size 1.27 1.27))))
-				(number "52" (effects (font (size 1.27 1.27))))))
+				(name "Pin_50" (effects (font (size 1.27 1.27))))
+				(number "50" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 22.86 180)
+				(length 3.81)
+				(name "Pin_49" (effects (font (size 1.27 1.27))))
+				(number "49" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 20.32 180)
+				(length 3.81)
+				(name "Pin_48" (effects (font (size 1.27 1.27))))
+				(number "48" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 17.78 180)
+				(length 3.81)
+				(name "Pin_47" (effects (font (size 1.27 1.27))))
+				(number "47" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 15.24 180)
+				(length 3.81)
+				(name "Pin_46" (effects (font (size 1.27 1.27))))
+				(number "46" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 12.7 180)
+				(length 3.81)
+				(name "Pin_45" (effects (font (size 1.27 1.27))))
+				(number "45" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 10.16 180)
+				(length 3.81)
+				(name "Pin_44" (effects (font (size 1.27 1.27))))
+				(number "44" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 7.62 180)
+				(length 3.81)
+				(name "Pin_43" (effects (font (size 1.27 1.27))))
+				(number "43" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 5.08 180)
+				(length 3.81)
+				(name "Pin_42" (effects (font (size 1.27 1.27))))
+				(number "42" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 2.54 180)
+				(length 3.81)
+				(name "Pin_41" (effects (font (size 1.27 1.27))))
+				(number "41" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "Pin_40" (effects (font (size 1.27 1.27))))
+				(number "40" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -2.54 180)
+				(length 3.81)
+				(name "Pin_39" (effects (font (size 1.27 1.27))))
+				(number "39" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -5.08 180)
+				(length 3.81)
+				(name "Pin_38" (effects (font (size 1.27 1.27))))
+				(number "38" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -7.62 180)
+				(length 3.81)
+				(name "Pin_37" (effects (font (size 1.27 1.27))))
+				(number "37" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -10.16 180)
+				(length 3.81)
+				(name "Pin_36" (effects (font (size 1.27 1.27))))
+				(number "36" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -12.7 180)
+				(length 3.81)
+				(name "Pin_35" (effects (font (size 1.27 1.27))))
+				(number "35" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -15.24 180)
+				(length 3.81)
+				(name "Pin_34" (effects (font (size 1.27 1.27))))
+				(number "34" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -17.78 180)
+				(length 3.81)
+				(name "Pin_33" (effects (font (size 1.27 1.27))))
+				(number "33" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -20.32 180)
+				(length 3.81)
+				(name "Pin_32" (effects (font (size 1.27 1.27))))
+				(number "32" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -22.86 180)
+				(length 3.81)
+				(name "Pin_31" (effects (font (size 1.27 1.27))))
+				(number "31" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -25.4 180)
+				(length 3.81)
+				(name "Pin_30" (effects (font (size 1.27 1.27))))
+				(number "30" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -27.94 180)
+				(length 3.81)
+				(name "Pin_29" (effects (font (size 1.27 1.27))))
+				(number "29" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -30.48 180)
+				(length 3.81)
+				(name "Pin_28" (effects (font (size 1.27 1.27))))
+				(number "28" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 7.62 -33.02 180)
+				(length 3.81)
+				(name "Pin_27" (effects (font (size 1.27 1.27))))
+				(number "27" (effects (font (size 1.27 1.27))))))
 		(embedded_fonts no))
 	(symbol
 		"_conn_dsub50"
@@ -2648,7 +3028,7 @@
 			(do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:SSW-103-01-L-S"
+			"footprints:CON1X03P254FEMALE"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -2687,7 +3067,7 @@
 			(do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:SSW-126-04-G-D"
+			"footprints:CON2X26P254FEMALE"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -2716,6 +3096,45 @@
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
+		"TSM-103-04-L-SV"
+		(extends "_conn_1x03_male")
+		(property
+			"Value"
+			"TSM-103-04-L-SV"
+			(at 0 5.06 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CON1X03P254SMDMALE"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://suddendocs.samtec.com/productspecs/tsm.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Samtec"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2.54mm 1x3"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"TSM-103-04-L-SV"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Terminal strip, double row, 01x03, 2.54mm pitch, male, surface mount"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
 		"TSM-104-01-L-SV"
 		(extends "_conn_1x04_male")
 		(property
@@ -2726,7 +3145,7 @@
 			(do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:TSM-104-01-L-SV"
+			"footprints:CON1X04P254SMDRMALE"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -2765,7 +3184,7 @@
 			(do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:TSM-107-01-L-SV"
+			"footprints:CON1X07P254SMDRMALE"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -2804,7 +3223,7 @@
 			(do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:TSM-108-01-L-SV"
+			"footprints:CON1X08P254SMDRMALE"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -2833,6 +3252,45 @@
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
+		"TSM-110-01-F-DV"
+		(extends "_conn_2x10_male")
+		(property
+			"Value"
+			"TSM-110-01-F-DV"
+			(at 0 12.68 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CON2X10P254SMDMALE"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://suddendocs.samtec.com/productspecs/tsm.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Samtec"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 2.54mm 2x10"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"TSM-110-01-F-DV"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Terminal strip, double row, 02x10, 2.54mm pitch, male, surface mount"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
 		"TSW-103-07-G-S"
 		(extends "_conn_1x03_male")
 		(property
@@ -2843,7 +3301,7 @@
 			(do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:TSW-103-07-G-S"
+			"footprints:CON1X03P254MALE"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -2869,5 +3327,83 @@
 		(property
 			"Description"
 			"Header strip, single row, 01x03, 2.54mm pitch, male"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"TSW-108-07-G-S"
+		(extends "_conn_1x08_male")
+		(property
+			"Value"
+			"TSW-108-07-G-S"
+			(at 0 10.14 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CON1X08P254MALE"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.mouser.com/datasheet/3/85/1/htsw_th.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Samtec"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"THT 2.54mm 1x9"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"TSW-108-07-G-S"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Socket strip, single row, 01x08, 2.54mm pitch, male"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"TSW-109-07-G-S"
+		(extends "_conn_1x09_male")
+		(property
+			"Value"
+			"TSW-109-07-G-S"
+			(at 0 12.68 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CON1X09P254MALE"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.mouser.com/datasheet/3/85/1/htsw_th.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Samtec"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"THT 2.54mm 1x9"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"TSW-109-07-G-S"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Socket strip, single row, 01x09, 2.54mm pitch, male"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))))

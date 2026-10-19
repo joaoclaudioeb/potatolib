@@ -41,3 +41,7 @@ RT0402BRD07100RL,100R,footprints:RES0402,https://www.yageo.com/upload/media/prod
 RT0402BRD071KL,1k,footprints:RES0402,https://www.yageo.com/upload/media/product/app/datasheet/p/RT-Series-1.pdf,YAGEO,SMD 0402,"Thin film resistor, 1/16W, 1k, 0.1%",resistor
 RC0402JR-070RL,0R,footprints:RES0402,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,YAGEO,SMD 0402,"Jumper, 0402, 0R",resistor
 RC0402FR-075K23L,5.23k,footprints:RES0402,https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf,YAGEO,SMD 0402,"Resistor, 1/16W, 5.23k, 1%",resistor
+EXB-N8V101JX,100R,footprints:RES0402ARY,https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf,Panasonic,SMD 0402,"Resistor array, 1/16W, 100R, 1%",resistor-array
+YC124-JR-070RL ,0R,footprints:RES0402ARY,https://www.mouser.com/datasheet/3/508/1/PYU_YC_TC_GROUP_51_ROHS_L.pdf,YAGEO,SMD 0402,"Resistor array, 1/16W, 0R, 1%",resistor-array
+EXB-28V103JX ,10k,footprints:RES0402ARY,https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf,Panasonic,SMD 0402,"Resistor array, 1/16W, 10k, 1%",resistor-array
+ERJ-XGNJ103Y ,10k,footprints:RES0402,https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf,Panasonic,SMD 0402,"Resistor, 1/16W, 10k, 1%",resistor

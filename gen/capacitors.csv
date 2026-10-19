@@ -20,3 +20,5 @@ GRM1555C1H180JA01D,18pF,footprints:CAP0402,https://www.murata.com/en-us/products
 GRM188R61C106MA73D,10uF,footprints:CAP0603,https://www.murata.com/en-us/products/productdetail?partno=GRM188R61C106MA73%23,Murata,SMD 0603,"Capacitor, 10uF, 20%",non_pol_capacitor
 T495D226K035ATE300,22uF,footprints:CAP2917POL,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,KEMET,SMD 2917,"Tantalum capacitor, 22uF, 10%",pol_capacitor
 T495C106K025ATE300,10uF,footprints:CAP2312POL,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,KEMET,SMD 2312,"Tantalum capacitor, 10uF, 10%",pol_capacitor
+TR3B106K025C1100,1uF,footprints:CAP3528TANT,https://www.vishay.com/docs/40080/tr3.pdf,Vishay,SMD 3528,"Tantalum capacitor, 1uF, 10%",pol_capacitor
+C0603C105K3RACTU,1uF,footprints:CAP0603,C0603C105K3RACTU,KEMET,SMD 0603,"Capacitor, 1uF, 10%",non_pol_capacitor

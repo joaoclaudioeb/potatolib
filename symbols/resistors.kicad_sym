@@ -45,6 +45,161 @@
 				(number "2" (effects (font (size 1.27 1.27))))))
 		(embedded_fonts no))
 	(symbol
+		"_resistor-array"
+		(pin_numbers (hide yes))
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R?" (at 0 9.215 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "" (at 0 6.965 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(symbol
+			"_resistor-array_0_1"
+			(rectangle
+				(start -3.175 5.715)
+				(end 3.175 -5.715)
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 3.81) (xy -3.175 3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 3.81) (xy -1.905 4.826) (xy -1.524 3.81) (xy -1.143 2.794) (xy -0.762 3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 1.27) (xy -3.175 1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 1.27) (xy -1.905 2.286) (xy -1.524 1.27) (xy -1.143 0.254) (xy -0.762 1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 -1.27) (xy -3.175 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 -1.27) (xy -1.905 -0.254) (xy -1.524 -1.27) (xy -1.143 -2.286) (xy -0.762 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 -3.81) (xy -3.175 -3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -2.286 -3.81) (xy -1.905 -2.794) (xy -1.524 -3.81) (xy -1.143 -4.826) (xy -0.762 -3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.762 3.81) (xy -0.381 4.826) (xy 0 3.81) (xy 0.381 2.794) (xy 0.762 3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.762 1.27) (xy -0.381 2.286) (xy 0 1.27) (xy 0.381 0.254) (xy 0.762 1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.762 -1.27) (xy -0.381 -0.254) (xy 0 -1.27) (xy 0.381 -2.286) (xy 0.762 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.762 -3.81) (xy -0.381 -2.794) (xy 0 -3.81) (xy 0.381 -4.826) (xy 0.762 -3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 0.762 3.81) (xy 1.143 4.826) (xy 1.524 3.81) (xy 1.905 2.794) (xy 2.286 3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 0.762 1.27) (xy 1.143 2.286) (xy 1.524 1.27) (xy 1.905 0.254) (xy 2.286 1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 0.762 -1.27) (xy 1.143 -0.254) (xy 1.524 -1.27) (xy 1.905 -2.286) (xy 2.286 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 0.762 -3.81) (xy 1.143 -2.794) (xy 1.524 -3.81) (xy 1.905 -4.826) (xy 2.286 -3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 2.286 3.81) (xy 3.175 3.81))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 2.286 1.27) (xy 3.175 1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 2.286 -1.27) (xy 3.175 -1.27))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 2.286 -3.81) (xy 3.175 -3.81))
+				(stroke (width 0) (type default))
+				(fill (type none))))
+		(symbol
+			"_resistor-array_1_0"
+			(pin
+				passive
+				line
+				(at -5.08 3.81 0)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 1.27 0)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -1.27 0)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -5.08 -3.81 0)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 5.08 3.81 180)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 5.08 1.27 180)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 5.08 -1.27 180)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 5.08 -3.81 180)
+				(length 2.54)
+				(name "" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol
 		"CRCW04021M00FKED"
 		(extends "_resistor")
 		(property "Value" "1M" (at 0 2.266 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
@@ -963,6 +1118,108 @@
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
+		"ERJ-XGNJ103Y"
+		(extends "_resistor")
+		(property "Value" "10k" (at 0 2.266 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:RES0402"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Panasonic"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"ERJ-XGNJ103Y"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor, 1/16W, 10k, 1%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"EXB-28V103JX"
+		(extends "_resistor-array")
+		(property "Value" "10k" (at 0 6.965 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:RES0402ARY"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Panasonic"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"EXB-28V103JX"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor array, 1/16W, 10k, 1%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"EXB-N8V101JX"
+		(extends "_resistor-array")
+		(property "Value" "100R" (at 0 6.965 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:RES0402ARY"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Panasonic"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"EXB-N8V101JX"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor array, 1/16W, 100R, 1%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
 		"RC0402FR-07100KL"
 		(extends "_resistor")
 		(property "Value" "100k" (at 0 2.266 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
@@ -1470,5 +1727,39 @@
 		(property
 			"Description"
 			"Current sense resistor, 2W, 0.033R, 1%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"YC124-JR-070RL"
+		(extends "_resistor-array")
+		(property "Value" "0R" (at 0 6.965 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:RES0402ARY"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.mouser.com/datasheet/3/508/1/PYU_YC_TC_GROUP_51_ROHS_L.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"YAGEO"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0402"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"YC124-JR-070RL"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Resistor array, 1/16W, 0R, 1%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))))

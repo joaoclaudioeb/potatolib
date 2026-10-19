@@ -192,6 +192,40 @@
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
+		"C0603C105K3RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "1uF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"C0603C105K3RACTU"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C105K3RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 1uF, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
 		"C0603C220K5RACAUTO"
 		(extends "_non_pol_capacitor")
 		(property "Value" "22pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
@@ -767,6 +801,40 @@
 		(property
 			"Description"
 			"Tantalum capacitor, 47uF, 5%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"TR3B106K025C1100"
+		(extends "_pol_capacitor")
+		(property "Value" "1uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP3528TANT"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.vishay.com/docs/40080/tr3.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Vishay"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 3528"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"TR3B106K025C1100"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tantalum capacitor, 1uF, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
