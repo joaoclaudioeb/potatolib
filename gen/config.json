@@ -38,7 +38,7 @@
   },
   "allow_kicad_autoplace": false,
   "base_prefix": "_",
-  "lib_prefix": "potato-",
+  "lib_prefix": "user-",
   "pin_text": {
     "name_font_size": 1.27,
     "number_font_size": 1.27

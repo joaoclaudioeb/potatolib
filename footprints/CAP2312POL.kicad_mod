@@ -147,7 +147,7 @@
 		(uuid "b763b33e-7ce7-4f5e-9f18-0ee1e053f811")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-15_Kemet-U.stpZ"
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-15_Kemet-U.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

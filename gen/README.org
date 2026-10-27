@@ -1,0 +1,217 @@
+* gen/ - library tooling
+
+Two scripts, both plain Python 3 (standard library only), and the files they use:
+
+- =potatolib.py= :: builds the symbol libraries from CSV files, keeps the field layout of every symbol consistent and writes the library tables of a project.
+- =sync3d.py= :: keeps =3dmodels/= in sync with the GitHub release =3dshapes=, where the 3D models are stored.
+- =*.csv= :: one file per generated library (=capacitors.csv= -> =../symbols/capacitors.kicad_sym=).
+- =_templates.kicad_sym= :: graphics of the generated symbols (one template per kind of part).
+- =config.json= :: field layout and naming used by =potatolib.py=.
+
+Every command below can be run through =make= from the library root (see the table at the end of each section), or directly from =gen/=.
+
+#+begin_quote
+Paths in the examples: the library is mounted as =lib/= inside a project, so =lib/gen/= is this folder.
+#+end_quote
+
+
+* potatolib.py
+
+#+begin_src text
+  python3 potatolib.py {updt_symbols,updt_positions,updt_tables,all} [options]
+#+end_src
+
+** Concepts
+
+- Generated library :: a library that has a CSV here. =gen/resistors.csv= generates =symbols/resistors.kicad_sym=; the =.kicad_sym= is rewritten from scratch every time, so edit the CSV, never the generated file.
+- Hand-made library :: every other =*.kicad_sym= directly inside =symbols/=. They are drawn in KiCad; the script only moves their fields (it never touches the graphics or pins).
+- Templates :: =_templates.kicad_sym= holds one symbol per kind of part (=resistor=, =non_pol_capacitor=, =conn_1x04_male=, ...). For every template used in a CSV, the generated library gets a base symbol (=_resistor=, the =_= comes from =base_prefix=) and one derived symbol (=extends=) per CSV row.
+- Field layout :: Reference and Value above the body, every other field hidden in a fixed column to the right, in the order given by =fields_order=. The same rule is applied to generated and hand-made symbols, so all of them look the same in a schematic.
+
+** CSV format
+
+One row per part. =MPN= is the symbol name; =Symbol= is the template name (without the =_=). Rows without =MPN= are ignored, and rows are sorted by =MPN=.
+
+#+begin_src text
+  MPN,Value,Footprint,Datasheet,Manufacturer,Package,Description,Symbol
+  CRCW0603100KFKEAHP,100k,footprints:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 100k, 1%",resistor
+#+end_src
+
+- =Footprint= :: =footprints:<footprint>= (=footprints/<footprint>.kicad_mod=).
+- Extra columns :: become extra hidden fields, placed after the ones in =fields_order=.
+- Problems reported (exit code 1) :: duplicated =MPN=, or a =Symbol= that is not in the templates.
+
+** Commands
+
+- =updt_symbols= :: rebuild every generated library from its CSV.
+- =updt_positions= :: apply the field layout to every hand-made library and to =_templates.kicad_sym= (derived symbols are skipped: they inherit the layout).
+- =all= :: =updt_symbols= followed by =updt_positions=.
+- =updt_tables= :: write the =sym-lib-table= and =fp-lib-table= of a project. If the project has a =sources/= folder, the tables go there. Entries that do not point into this library (KiCad libraries, other project libraries) are kept as they are; entries that do are replaced by what is on disk now.
+
+** Options
+
+| Option             | Default                    | Meaning                                                             |
+|--------------------+----------------------------+---------------------------------------------------------------------|
+| =--only NAME ...=  | all                        | Only these libraries (file names without =.kicad_sym=)              |
+| =--dry-run=        | off                        | Show what would change, write nothing                               |
+| =-v=, =--verbose=  | off                        | List the symbols changed / the table entries                        |
+| =--project DIR=    | two levels above =gen/=    | Project for =updt_tables= (the folder that contains =lib/=)         |
+| =--no-templates=   | off                        | =updt_positions=: leave =_templates.kicad_sym= alone; =updt_tables=: no =_templates= entry |
+| =--config FILE=    | =gen/config.json=          | Layout and naming settings                                          |
+| =--templates FILE= | =gen/_templates.kicad_sym= | Template library                                                    |
+| =--gen DIR=        | =gen/=                     | Where the CSV files are                                             |
+| =--symbols DIR=    | =symbols/=                 | Where the =*.kicad_sym= files are                                   |
+
+** config.json
+
+| Key                        | Meaning                                                                                  |
+|----------------------------+------------------------------------------------------------------------------------------|
+| =reference=, =value=       | Position (=x=, =offset_y_above_graphic=), font size, visibility of Reference and Value   |
+| =hidden_fields=            | Column of the other fields: =start_x=, =start_y=, =step_y=, font size, justification     |
+| =fields_order=             | Order of the fields in that column                                                       |
+| =pin_numbers=, =pin_names= | =hide=: true/false                                                                       |
+| =pin_text=                 | Font size of pin names and numbers                                                       |
+| =allow_kicad_autoplace=    | =false= pins Reference/Value (=do_not_autoplace=)                                        |
+| =base_prefix=              | Prefix of the base symbols (=_=)                                                         |
+| =lib_prefix=               | Prefix of the symbol library nicknames in the tables (=potato-= -> =potato-resistors=)   |
+| =lib_uri_base=             | Optional. Base of the paths written in the tables (default =${KIPRJMOD}/../lib=)         |
+
+The footprint library is always added as =footprints= (no prefix), because that is the name written in the =Footprint= field of every symbol.
+
+** Examples
+
+Add a part to a generated library: add a row to the CSV, then
+
+#+begin_src sh
+  make build          # from lib/
+  make verify         # optional: fails if a symbol library is not up to date (this is what the CI runs)
+#+end_src
+
+#+begin_src text
+    capacitors      23 parts   2 bases (_non_pol_capacitor, _pol_capacitor)  25.4 KB -> 25.4 KB
+    connectors      23 parts  17 bases (_conn_1x02_mp_male, _conn_1x02_screw, _conn_1x03_female, +14)  91.7 KB -> 91.7 KB
+    passive_osc      7 parts   1 base  (_crystal_2pin)  8.5 KB -> 8.5 KB
+    resistors       46 parts   2 bases (_resistor, _resistor-array)  50.6 KB -> 50.6 KB
+
+  99 symbols in 4 libraries
+#+end_src
+
+Rebuild only one library, without writing, to see what would happen:
+
+#+begin_src sh
+  cd lib/gen
+  python3 potatolib.py updt_symbols --only resistors --dry-run
+#+end_src
+
+Fix the field layout of a hand-made library after editing it in KiCad, listing the symbols that moved:
+
+#+begin_src sh
+  python3 potatolib.py updt_positions --only mcus -v
+#+end_src
+
+Write (or fix) the library tables of the project that contains =lib/=:
+
+#+begin_src sh
+  make -C lib tables PROJECT=..                                   # from the project root
+  python3 potatolib.py updt_tables --project ../.. --dry-run -v   # from lib/gen, just to look
+#+end_src
+
+#+begin_src text
+  project     /home/user/dac81416-board
+  tables in   /home/user/dac81416-board/sources
+
+    sym-lib-table    17 own               unchanged
+    fp-lib-table     1 own                unchanged
+#+end_src
+
+** Make targets
+
+| Target                   | Runs                                                   |
+|--------------------------+--------------------------------------------------------|
+| =make build=             | =potatolib.py all=                                     |
+| =make check=             | =potatolib.py all --dry-run=                           |
+| =make verify=            | =make build=, then =git diff --exit-code symbols=      |
+| ~make tables PROJECT=..~ | =potatolib.py updt_tables --project ..=                |
+
+
+* sync3d.py
+
+#+begin_src text
+  python3 sync3d.py {pull,push,status} [--dir DIR] [--tag TAG] [--repo OWNER/NAME] [--prune] [--dry-run] [-j N]
+#+end_src
+
+The 3D models are not in git: they are the files of the release [[https://github.com/joaoclaudioeb/potatolib/releases/tag/3dshapes][3dshapes]]. =sync3d.py= compares =3dmodels/= with that release by name, size and SHA-256 (GitHub publishes the SHA-256 of every release file), so it only transfers what is missing or different.
+
+** Commands
+
+- =pull= :: download what is missing or different into =3dmodels/=. Local files that are not in the release are left alone. Needs only Python.
+- =push= :: upload the local files that are not in the release, and replace the ones that changed. With =--prune=, also delete from the release the files that no longer exist locally. Creates the release if it does not exist. Needs the [[https://cli.github.com][GitHub CLI]] (=gh=) logged in with write access.
+- =status= :: show the differences, change nothing.
+
+** Options
+
+| Option        | Default                  | Meaning                                                  |
+|---------------+--------------------------+----------------------------------------------------------|
+| =--dir DIR=   | =3dmodels=               | Models folder, relative to the library root              |
+| =--tag TAG=   | =3dshapes=               | Release used as storage                                  |
+| =--repo O/N=  | from =git remote origin= | Repository of the release                                |
+| =--prune=     | off                      | =push=: delete from the release what was deleted locally |
+| =--dry-run=   | off                      | =push=: only show what would be done                     |
+| =-j N=        | 8                        | =pull=: parallel downloads                               |
+
+** Examples
+
+First download, or update after new models were pushed:
+
+#+begin_src sh
+  make -C lib 3d
+#+end_src
+
+#+begin_src text
+  joaoclaudioeb/potatolib @ 3dshapes: 542 files in the release, 0 in 3dmodels
+  new (542):
+     09665627811.stp
+     142-0701-801.step
+     ...
+     ... +527
+  done
+#+end_src
+
+Add or replace models: copy them into =3dmodels/=, check, then upload:
+
+#+begin_src sh
+  make 3d-status
+  make 3d-push
+#+end_src
+
+#+begin_src text
+  joaoclaudioeb/potatolib @ 3dshapes: 543 files in 3dmodels, 542 in the release
+  upload (new) (1):
+     DAC81416RHAR.step
+  replace (changed) (1):
+     RES0805.step
+  done
+#+end_src
+
+Remove from the release the models deleted locally (look first):
+
+#+begin_src sh
+  python3 gen/sync3d.py push --prune --dry-run
+  make 3d-push PRUNE=1
+#+end_src
+
+** Rules and limits
+
+- File names :: only letters, digits, =.=, =_= and =-=. GitHub renames anything else (=,= and =#= become =.=), and the footprint would point to a name that does not exist; =push= refuses those names and lists them.
+- GitHub limits :: up to 1000 files per release and 2 GiB per file; no limit on the total size or on downloads. =push= stops before going over 1000.
+- Anonymous API :: =pull= and =status= list the release through the GitHub API, limited to 60 requests per hour without login (listing 1000 files takes about 11). If the limit is reached, log in with =gh auth login= or set =GH_TOKEN=; the token is then used automatically.
+
+** Make targets
+
+| Target                      | Runs                                                           |
+|-----------------------------+----------------------------------------------------------------|
+| =make 3d=                   | =sync3d.py pull=                                               |
+| =make 3d-status=            | =sync3d.py status=                                             |
+| =make 3d-push=              | =sync3d.py push=                                               |
+| ~make 3d-push PRUNE=1~      | =sync3d.py push --prune=                                       |
+| =MODELS_DIR=, =MODELS_TAG=  | Override =--dir= and =--tag= (defaults =3dmodels=, =3dshapes=) |

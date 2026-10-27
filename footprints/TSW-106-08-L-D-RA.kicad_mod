@@ -39,7 +39,7 @@
   (pad 10 thru_hole circle (at 10.16 -2.54) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at 12.7 0) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at 12.7 -2.54) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
-  (model TSW-106-08-L-D-RA.stp
+  (model "${KIPRJMOD}/../lib/3dmodels/TSW-106-08-L-D-RA.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

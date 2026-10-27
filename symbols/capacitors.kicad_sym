@@ -100,7 +100,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
-			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			"https://api.kemet.com/component-edge/download/datasheet/C0603C101J5GACAUTO.pdf"
 			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -120,7 +120,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 100pF, 5%"
+			"Capacitor, 100pF, 50V, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -134,7 +134,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
-			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			"https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
 			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -154,7 +154,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 1nF, 5%"
+			"Capacitor, 1nF, 25V, 1%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -188,7 +188,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 100nF, 5%"
+			"Capacitor, 100nF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -202,7 +202,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
-			"C0603C105K3RACTU"
+			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -222,7 +222,41 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 1uF, 10%"
+			"Capacitor, 1uF, 25V, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C154K5RACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "150nF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C154K5RACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 150nF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -236,7 +270,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
-			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			"https://api.kemet.com/component-edge/download/datasheet/C0603C220K5RACAUTO.pdf"
 			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -256,7 +290,41 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 22pF, 5%"
+			"Capacitor, 22pF, 50V, 10%"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
+	(symbol
+		"C0603C331J5GACTU"
+		(extends "_non_pol_capacitor")
+		(property "Value" "330pF" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:CAP0603"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"KEMET"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 0603"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"C0603C331J5GACTU"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Capacitor, 330pF, 50V, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -270,7 +338,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
-			"https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			"https://api.kemet.com/component-edge/download/datasheet/C0603C332J5GACAUTO.pdf"
 			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -290,7 +358,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 3.3nF, 5%"
+			"Capacitor, 3.3nF, 50V, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -324,7 +392,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 470nF, 10%"
+			"Capacitor, 470nF, 25V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -358,7 +426,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 1uF, 5%"
+			"Capacitor, 1uF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -382,7 +450,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
-			"SMD 0603"
+			"SMD 1210"
 			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -392,7 +460,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 10uF, 5%"
+			"Capacitor, 10uF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -426,7 +494,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 2.2uF, 5%"
+			"Capacitor, 2.2uF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -460,7 +528,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 4.7uF, 5%"
+			"Capacitor, 4.7uF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -494,7 +562,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Electrolytic capacitor, 47uF, 20%"
+			"Electrolytic capacitor, 47uF, 35V, 20%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -528,7 +596,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 22uF, 5%"
+			"Capacitor, 22uF, 16V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -562,7 +630,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 4.7uF, 5%"
+			"Capacitor, 4.7uF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -596,7 +664,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 18pF, 5%"
+			"Capacitor, 18pF, 50V, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -630,7 +698,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 1uF, 10%"
+			"Capacitor, 1uF, 10V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -664,7 +732,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 100nF, 10%"
+			"Capacitor, 100nF, 50V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -698,7 +766,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 10uF, 20%"
+			"Capacitor, 10uF, 16V, 20%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -732,7 +800,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Tantalum capacitor, 10uF, 10%"
+			"Tantalum capacitor, 10uF, 25V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -766,7 +834,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Tantalum capacitor, 22uF, 10%"
+			"Tantalum capacitor, 22uF, 35V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -800,13 +868,13 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Tantalum capacitor, 47uF, 5%"
+			"Tantalum capacitor, 47uF, 35V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
 		"TR3B106K025C1100"
 		(extends "_pol_capacitor")
-		(property "Value" "1uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "10uF" (at 0 3.536 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
 			"footprints:CAP3528TANT"
@@ -834,7 +902,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Tantalum capacitor, 1uF, 10%"
+			"Tantalum capacitor, 10uF, 25V, 10%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -868,6 +936,6 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Capacitor, 18pF, 5%"
+			"Capacitor, 18pF, 10V, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))))

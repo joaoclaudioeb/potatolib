@@ -1,0 +1,124 @@
+#+HTML: <div align="center">
+
+* potatolib
+
+#+HTML:   <img alt="status" src="https://img.shields.io/badge/status-in_development-red.svg">
+#+HTML:   <a href="https://github.com/joaoclaudioeb/potatolib/releases"><img alt="release" src="https://img.shields.io/github/v/release/joaoclaudioeb/potatolib.svg"></a>
+#+HTML:   <a href="https://github.com/joaoclaudioeb/potatolib/commits/main"><img alt="last_commit" src="https://img.shields.io/github/last-commit/joaoclaudioeb/potatolib/main.svg"></a>
+#+HTML:   <a href="https://github.com/joaoclaudioeb/potatolib/issues"><img alt="issues" src="https://img.shields.io/github/issues/joaoclaudioeb/potatolib.svg"></a>
+#+HTML:   <a href="https://github.com/joaoclaudioeb/potatolib/pulls"><img alt="pull_requests" src="https://img.shields.io/github/issues-pr/joaoclaudioeb/potatolib.svg"></a>
+#+HTML:   <a href="https://github.com/joaoclaudioeb/potatolib/graphs/contributors"><img alt="contributors" src="https://img.shields.io/github/contributors/joaoclaudioeb/potatolib.svg"></a>
+#+HTML:   <a href="https://www.kicad.org/"><img alt="Static Badge" src="https://img.shields.io/badge/CAD_tool-KiCad_9.0-blue"></a>
+#+HTML:   <a href="#license"><img alt="Static Badge" src="https://img.shields.io/badge/license-GPL--3.0-yellow"></a>
+
+KiCad library (symbols, footprints, 3D models and design blocks) shared by my hardware projects, with the scripts that generate and maintain it.
+
+[[#overview][Overview]] • [[#repository-organization][Repository Organization]] • [[#usage][Usage]] • [[#license][License]] • [[#releases][Releases]] • [[#notes][Notes]] • [[#references][References]]
+
+#+HTML: </div>
+
+
+* Overview
+:PROPERTIES:
+:CUSTOM_ID: overview
+:END:
+
+potatolib is meant to be used as a git submodule called =lib/=, next to the =sources/= folder of each project. Every path in the library is relative to the project (=${KIPRJMOD}/../lib/...=), so a project opens the same way on any machine, without configuring paths in KiCad.
+
+- Symbols :: =symbols/*.kicad_sym=, one library per family (capacitors, resistors, connectors, ...). In a project they show up as =potato-<family>= (for example =potato-resistors=). The passive and connector libraries are generated from CSV files (see [[file:gen/README.org][gen/README.org]]).
+- Footprints :: =footprints/=, used as =footprints:<footprint>= (for example =footprints:RES0603=).
+- 3D models :: =3dmodels/=, referenced as =${KIPRJMOD}/../lib/3dmodels/<model>=. They are not kept in git: they live in the GitHub release [[https://github.com/joaoclaudioeb/potatolib/releases/tag/3dshapes][3dshapes]] and are downloaded with =make 3d=.
+- Design blocks :: =symbols/circuits.kicad_blocks/= (ready-made circuits, e.g. ADS1256 and AMS1117 regulators).
+
+
+* Repository Organization
+:PROPERTIES:
+:CUSTOM_ID: repository-organization
+:END:
+
+#+begin_src text
+  joaoclaudioeb/potatolib
+    ├── README.org
+    ├── Makefile
+    ├── gen/
+    ├── symbols/
+    ├── footprints/
+    └── 3dmodels/
+#+end_src
+
+- =gen/= :: Scripts and sources: =potatolib.py= (symbols and library tables), =sync3d.py= (3D models), the CSV files, the symbol templates and =config.json=. Documented in [[file:gen/README.org][gen/README.org]].
+- =symbols/= :: Symbol libraries (=*.kicad_sym=) and the design block library (=circuits.kicad_blocks/=). The subfolders hold per-part symbols that were not merged into a family library yet; they are not added to the project tables.
+- =footprints/= :: Footprint library.
+- =3dmodels/= :: 3D models. Not in git (see =.gitignore=); =make 3d= downloads them from the release.
+- =Makefile= :: Shortcuts for the scripts.
+
+
+* Usage
+:PROPERTIES:
+:CUSTOM_ID: usage
+:END:
+
+In a new project (from the project root):
+
+#+begin_src sh
+  git submodule add https://github.com/joaoclaudioeb/potatolib lib
+  make -C lib 3d                    # download the 3D models into lib/3dmodels/
+  make -C lib tables PROJECT=..     # write sym-lib-table and fp-lib-table
+#+end_src
+
+In a clone of an existing project:
+
+#+begin_src sh
+  git clone --recursive <project>      # or: git submodule update --init
+  make -C lib 3d
+#+end_src
+
+Main =make= targets (run inside =lib/=, or with =make -C lib=):
+
+| Target                    | What it does                                                              |
+|---------------------------+---------------------------------------------------------------------------|
+| =make build=              | Regenerate the CSV libraries and normalize the hand-made ones             |
+| =make check=              | Same as =build=, without writing anything                                 |
+| =make verify=             | =build=, then fail if anything in =symbols/= changed (used by the CI)     |
+| ~make tables PROJECT=..~  | Write the project library tables                                          |
+| =make 3d=                 | Download the 3D models that are missing or changed                        |
+| =make 3d-status=          | Show the differences between =3dmodels/= and the release                  |
+| ~make 3d-push [PRUNE=1]~  | Upload new and changed 3D models (~PRUNE=1~ also deletes removed ones)    |
+
+Details and examples for every command: [[file:gen/README.org][gen/README.org]].
+
+
+* License
+:PROPERTIES:
+:CUSTOM_ID: license
+:END:
+
+This project is open-source under the following license: GNU General Public License v3.0 (see [[file:LICENSE][LICENSE]]).
+
+
+* Releases
+:PROPERTIES:
+:CUSTOM_ID: releases
+:END:
+
+The release [[https://github.com/joaoclaudioeb/potatolib/releases/tag/3dshapes][3dshapes]] is not a version of the library: it is the storage of the 3D models. Its files are replaced in place by =make 3d-push=, so its download links never change.
+
+
+* Notes
+:PROPERTIES:
+:CUSTOM_ID: notes
+:END:
+
+- Names of 3D models :: use only letters, digits, =.=, =_= and =-=. GitHub renames anything else when a file is uploaded to a release (=,= and =#= become =.=), so =CUHS20S40,H3F.stp= is stored as =CUHS20S40.H3F.stp=, and the footprint must use that name. =make 3d-push= refuses names that would be renamed.
+- Models from the KiCad library :: some footprints use the 3D models installed with KiCad (=${KICAD9_3DMODEL_DIR}/...=); those are not in the release.
+- The name =lib= :: the 3D paths (=${KIPRJMOD}/../lib/3dmodels/=) assume the submodule is mounted as =lib/=. Mounting it under another name means editing those paths; =lib_uri_base= in =gen/config.json= only changes the paths written in the library tables.
+
+
+* References
+:PROPERTIES:
+:CUSTOM_ID: references
+:END:
+
+- <<ref1>> [1] KiCad, "KiCad 9.0 documentation", available at [[https://docs.kicad.org/9.0/en/][this link]].
+
+- <<ref2>> [2] GitHub, "About releases", available at [[https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases][this link]].

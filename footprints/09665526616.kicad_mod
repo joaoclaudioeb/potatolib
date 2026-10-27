@@ -1,9 +1,9 @@
-(footprint "966552616"
+(footprint "09665526616"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "966552616")
+	(descr "09665526616")
 	(tags "Connector")
 	(property "Reference" "J**"
 		(at 36 11 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "966552616"
+	(property "Value" "09665526616"
 		(at 22.08 0 0)
 		(layer "F.SilkS")
 		(hide yes)

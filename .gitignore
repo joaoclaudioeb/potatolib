@@ -34,3 +34,6 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# 3D models: stored in the GitHub release "3dshapes", downloaded with `make 3d`
+3dmodels/

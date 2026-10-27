@@ -36,7 +36,7 @@
   (pad 12 thru_hole circle (at 12.7 -2.54) (size 1.65 1.65) (drill 1.11) (layers *.Cu *.Mask))
   (pad 13 thru_hole circle (at 15.24 0) (size 1.65 1.65) (drill 1.11) (layers *.Cu *.Mask))
   (pad 14 thru_hole circle (at 15.24 -2.54) (size 1.65 1.65) (drill 1.11) (layers *.Cu *.Mask))
-  (model M20-9980745.stp
+  (model "${KIPRJMOD}/../lib/3dmodels/M20-9980745.stp"
     (at (xyz -0.10236220096979 0.051181100484893 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 -180 -180))

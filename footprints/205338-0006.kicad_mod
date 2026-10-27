@@ -357,7 +357,7 @@
 		(uuid "f10e6b49-47e4-41b4-ad84-37a29d3d4697")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Lock_205338-0006_1x06-1MP_P2.00mm_Horizontal.stpZ"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Lock_205338-0006_1x06-1MP_P2.00mm_Horizontal.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

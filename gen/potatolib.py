@@ -341,7 +341,8 @@ def wanted_entries(kind, gen_dir, sym_dir, cfg, with_templates):
     prefix = cfg.get('lib_prefix', '')
     base = cfg.get('lib_uri_base', '${KIPRJMOD}/../lib')
     if kind == 'fp':
-        return [(f'{prefix}footprints', f'{base}/footprints', [])]
+        # no prefix: the nickname must match the "footprints:<name>" written in the symbols
+        return [('footprints', f'{base}/footprints', [])]
     out = [(prefix + p.stem, f'{base}/symbols/{p.name}', [])
            for p in sorted(sym_dir.glob('*.kicad_sym'))]
     if with_templates:

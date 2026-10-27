@@ -1,0 +1,5 @@
+{
+"description": "A somewhat generic circuit implementation for the DAC81416 (and the pin-compatible DAC81408)",
+"keywords": "DAC81416",
+"fields": {}
+}

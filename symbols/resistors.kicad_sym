@@ -230,7 +230,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor, 0.1W, 1M, 1%"
+			"Resistor, 0.063W, 1M, 1%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -264,7 +264,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor, 0.1W, 5.11k, 1%"
+			"Resistor, 0.063W, 5.11k, 1%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -298,7 +298,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Jumper, 0.33W, 0R, 1%"
+			"Jumper, 5A, 0R"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -876,7 +876,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor, 0.25W, 5.23k, 1%"
+			"Resistor, 0.33W, 5.23k, 1%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -1012,7 +1012,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor, 0.25W, 90.9k, 1%"
+			"Resistor, 0.33W, 90.9k, 1%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -1123,7 +1123,7 @@
 		(property "Value" "10k" (at 0 2.266 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:RES0402"
+			"footprints:RES01005"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -1138,7 +1138,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
-			"SMD 0402"
+			"SMD 01005"
 			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -1148,7 +1148,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor, 1/16W, 10k, 1%"
+			"Resistor, 1/32W, 10k, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -1172,7 +1172,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
-			"SMD 0402"
+			"SMD 0804"
 			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -1182,7 +1182,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor array, 1/16W, 10k, 1%"
+			"Resistor array, 1/16W, 10k, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -1206,7 +1206,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
-			"SMD 0402"
+			"SMD 0804"
 			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -1216,7 +1216,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor array, 1/16W, 100R, 1%"
+			"Resistor array, 1/32W, 100R, 5%"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes))))
 	(symbol
@@ -1672,7 +1672,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Datasheet"
-			"https://www.vishay.com/docs/30100/wsl.pdf"
+			"https://www.vishay.com/docs/31057/wslhigh.pdf"
 			(at 42.098 3.81 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -1701,7 +1701,7 @@
 		(property "Value" "33m" (at 0 2.266 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
 		(property
 			"Footprint"
-			"footprints:RES2010"
+			"footprints:RES2512"
 			(at 42.098 6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -1750,7 +1750,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
-			"SMD 0402"
+			"SMD 0804"
 			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -1760,6 +1760,6 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Description"
-			"Resistor array, 1/16W, 0R, 1%"
+			"Resistor array, 1/16W, 0R"
 			(at 42.098 -6.35 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))))

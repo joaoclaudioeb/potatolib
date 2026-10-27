@@ -101,7 +101,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
-			"SMD 2016"
+			"SMD 2520"
 			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
@@ -271,7 +271,7 @@
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
 			"Package"
-			"SMD 2520"
+			"SMD 3225"
 			(at 42.098 -1.27 0)
 			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property
