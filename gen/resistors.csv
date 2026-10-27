@@ -45,3 +45,13 @@ EXB-N8V101JX,100R,footprints:RES0402ARY,https://industrial.panasonic.com/cdbs/ww
 YC124-JR-070RL ,0R,footprints:RES0402ARY,https://www.mouser.com/datasheet/3/508/1/PYU_YC_TC_GROUP_51_ROHS_L.pdf,YAGEO,SMD 0804,"Resistor array, 1/16W, 0R",resistor-array
 EXB-28V103JX ,10k,footprints:RES0402ARY,https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf,Panasonic,SMD 0804,"Resistor array, 1/16W, 10k, 5%",resistor-array
 ERJ-XGNJ103Y ,10k,footprints:RES01005,https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf,Panasonic,SMD 01005,"Resistor, 1/32W, 10k, 5%",resistor
+CRCW0603120RFKEAHP,120R,footprints:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 120R, 1%",resistor
+CRCW0603261KFKEAHP,261k,footprints:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 261k, 1%",resistor
+CRCW0603280KFKEAHP,280k,footprints:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 280k, 1%",resistor
+CRCW06034K70FKEAHP,4.7k,footprints:RES0603,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0603,"Resistor, 0.33W, 4.7k, 1%",resistor
+CRCW08050000Z0EAHP,0R,footprints:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Jumper, 6A, 0R",resistor
+CRCW0805100KFKEAHP,100k,footprints:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 100k, 1%",resistor
+CRCW0805226KFKEAHP,226k,footprints:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 226k, 1%",resistor
+CRCW0805280KFKEAHP,280k,footprints:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 280k, 1%",resistor
+CRCW08052K20FKEAHP,2.2k,footprints:RES0805,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Vishay,SMD 0805,"Resistor, 0.5W, 2.2k, 1%",resistor
+UR73V2ATTD47L0F,47m,footprints:RES0805,https://www.koaspeer.com/pdfs/UR73V.pdf,KOA Speer,SMD 0805,"Current sense resistor, 0.5W, 0.047R, 1%",resistor

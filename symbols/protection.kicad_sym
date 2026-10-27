@@ -1,0 +1,141 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "potatolib.py")
+	(generator_version "1.0")
+	(symbol
+		"CDSOT23-SM712"
+		(pin_names (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D?" (at 0 5.405 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Value"
+			"CDSOT23-SM712"
+			(at 0 3.155 0)
+			(effects (font (size 1.27 1.27)))
+			(do_not_autoplace))
+		(property
+			"Footprint"
+			"Package_TO_SOT_SMD:SOT-23"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.mouser.com/datasheet/3/40/1/CDSOT23_SM712.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Bourns"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SOT-23-3"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"CDSOT23-SM712"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"TVS diode array for RS-485, 7V/12V, 400W"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"CDSOT23-SM712_0_1"
+			(rectangle
+				(start -3.048 -3.048)
+				(end 3.048 1.905)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(circle (center -2.54 0) (radius 0.2032) (stroke (width 0) (type default)) (fill (type outline)))
+			(polyline (pts (xy -2.54 -2.032) (xy -2.54 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline
+				(pts (xy -1.905 -2.667) (xy -1.905 -1.397))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -1.27 -2.667) (xy -1.27 -1.397) (xy -1.905 -2.032) (xy -1.27 -2.667))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy -1.016 0) (xy -3.81 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline
+				(pts (xy -0.635 -2.032) (xy -2.54 -2.032))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.635 -2.032) (xy 0.635 -2.032))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.254 0.762) (xy -0.254 0.762))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy -0.254 -0.762) (xy -0.254 0.762))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy 0 0.762) (xy -0.254 0.762)) (stroke (width 0) (type default)) (fill (type none)))
+			(circle (center 0 -2.032) (radius 0.2032) (stroke (width 0) (type default)) (fill (type outline)))
+			(polyline (pts (xy 0 -2.54) (xy 0 -2.032)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline
+				(pts (xy 0.508 -0.762) (xy 0.508 0.762) (xy -0.254 0) (xy 0.508 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 0.508 -0.762) (xy 0.508 0.762) (xy -0.254 0) (xy 0.508 -0.762))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy 0.889 0) (xy -1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.889 0) (xy -1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline (pts (xy 0.889 0) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none)))
+			(polyline
+				(pts (xy 1.27 -2.667) (xy 1.27 -1.397))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 1.27 -2.667) (xy 1.27 -1.397))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 1.905 -2.667) (xy 1.905 -1.397) (xy 1.27 -2.032) (xy 1.905 -2.667))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(circle (center 2.54 0) (radius 0.2032) (stroke (width 0) (type default)) (fill (type outline)))
+			(polyline
+				(pts (xy 2.54 -2.032) (xy 0.635 -2.032))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline
+				(pts (xy 2.54 -2.032) (xy 0.635 -2.032))
+				(stroke (width 0) (type default))
+				(fill (type none)))
+			(polyline (pts (xy 2.54 -2.032) (xy 2.54 0)) (stroke (width 0) (type default)) (fill (type none))))
+		(symbol
+			"CDSOT23-SM712_1_1"
+			(pin
+				passive
+				line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "VP" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "CH1" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "VN" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no)))

@@ -27,3 +27,5 @@ TSW-110-07-G-S,TSW-110-07-G-S,footprints:CON1X10P254MALE,https://suddendocs.samt
 TSW-116-07-G-S,TSW-116-07-G-S,footprints:CON1X16P254MALE,https://suddendocs.samtec.com/productspecs/tsw-sxx.pdf,Samtec,THT 2.54mm 1x16,"Header strip, single row, 01x16, 2.54mm pitch, male",conn_1x16_male
 TSM-105-01-F-DV,TSM-105-01-F-DV,footprints:CON2X05P254SMDMALE,https://suddendocs.samtec.com/productspecs/tsm.pdf,Samtec,SMD 2.54mm 2x05,"Terminal strip, double row, 02x05, 2.54mm pitch, male, surface mount",conn_2x05_male
 TSM-116-01-F-DV,TSM-116-01-F-DV,footprints:CON2X16P254SMDMALE,https://suddendocs.samtec.com/productspecs/tsm.pdf,Samtec,SMD 2.54mm 2x16,"Terminal strip, double row, 02x16, 2.54mm pitch, male, surface mount",conn_2x16_male
+TSW-107-07-G-D,TSW-107-07-G-D,footprints:TSW-107-07-G-D,https://www.samtec.com/partnumber/tsw-107-07-g-d,Samtec,THT 2.54mm 2x7,"Header strip, double row, 02x07, 2.54mm pitch, male",conn_2x07_male
+61201421621,61201421621,footprints:61201421621,https://www.we-online.com/components/products/datasheet/61201421621.pdf,Wurth Elektronik,THT 2.54mm 2x7,"Box header, double row, 02x07, 2.54mm pitch, male, shrouded",conn_2x07_male

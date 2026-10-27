@@ -1,0 +1,77 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "potatolib.py")
+	(generator_version "1.0")
+	(symbol
+		"430182043816"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW?" (at 0 6.04 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property "Value" "430182043816" (at 0 3.79 0) (effects (font (size 1.27 1.27))) (do_not_autoplace))
+		(property
+			"Footprint"
+			"footprints:430182043816"
+			(at 42.098 6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Datasheet"
+			"https://www.we-online.com/catalog/datasheet/430182043816.pdf"
+			(at 42.098 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Manufacturer"
+			"Wurth Elektronik"
+			(at 42.098 1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Package"
+			"SMD 6x6mm"
+			(at 42.098 -1.27 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"MPN"
+			"430182043816"
+			(at 42.098 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property
+			"Description"
+			"Tactile switch, SPST-NO, 6x6mm, 4.3mm height, 160gf"
+			(at 42.098 -6.35 0)
+			(effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(symbol
+			"430182043816_1_1"
+			(rectangle
+				(start 4.445 2.54)
+				(end 19.685 -5.08)
+				(stroke (width 0.254) (type default))
+				(fill (type background)))
+			(pin
+				passive
+				line
+				(at -0.635 0 0)
+				(length 5.08)
+				(name "COM_1" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at -0.635 -2.54 0)
+				(length 5.08)
+				(name "NO_1" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 24.765 0 180)
+				(length 5.08)
+				(name "COM_2" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27)))))
+			(pin
+				passive
+				line
+				(at 24.765 -2.54 180)
+				(length 5.08)
+				(name "NO_2" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))))
+		(embedded_fonts no)))
